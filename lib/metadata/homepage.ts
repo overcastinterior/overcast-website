@@ -2,24 +2,24 @@
 import { Metadata } from 'next'
 
 export const homePageMetaData: Metadata = {
-  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'https://yoursite.com' : 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'http://overcastinteriorltd.com/' : 'http://localhost:3000'),
 
   // Basic SEO
   title: 'Overcast Interior',
   description: 'Description for search engines',
   keywords: ['keyword1', 'keyword2', 'keyword3'],
-  
+
   // Authors & Generator
-  authors: [{ name: 'Your Name', url: 'https://yoursite.com' }],
+  authors: [{ name: 'Your Name', url: 'http://overcastinteriorltd.com/' }],
   creator: 'Your Name',
   publisher: 'Your Company',
   generator: 'Next.js',
-  
+
   // Open Graph (Facebook, LinkedIn)
   openGraph: {
     title: 'Your Page Title',
     description: 'Description for social media',
-    url: 'https://yoursite.com',
+    url: 'http://overcastinteriorltd.com/',
     siteName: 'Your Site Name',
     images: [
       {
@@ -32,7 +32,7 @@ export const homePageMetaData: Metadata = {
     locale: 'en_US',
     type: 'website', // or 'article', 'product', etc.
   },
-  
+
   // Twitter/X
   twitter: {
     card: 'summary_large_image', // or 'summary'
@@ -42,7 +42,7 @@ export const homePageMetaData: Metadata = {
     site: '@yoursite',
     images: ['/twitter-image.jpg'], // 1200x600px recommended
   },
-  
+
   // Robots & Indexing
   robots: {
     index: true,
@@ -55,7 +55,7 @@ export const homePageMetaData: Metadata = {
       'max-snippet': -1,
     },
   },
-  
+
   // Canonical URL
   alternates: {
     canonical: 'https://yoursite.com/current-page',
@@ -64,7 +64,7 @@ export const homePageMetaData: Metadata = {
       'es-ES': 'https://yoursite.com/es',
     },
   },
-  
+
   // Icons & Manifest
   icons: {
     icon: '/images/favicon.svg',
@@ -72,7 +72,7 @@ export const homePageMetaData: Metadata = {
     shortcut: '/images/favicon.svg',
   },
   manifest: '/images/site.webmanifest',
-  
+
   // Verification (Google, Bing, etc.)
   verification: {
     google: 'your-google-verification-code',
@@ -82,7 +82,7 @@ export const homePageMetaData: Metadata = {
       'msvalidate.01': 'your-bing-verification-code',
     },
   },
-  
+
   // Additional Meta Tags
   other: {
     'theme-color': '#C49D5A',
