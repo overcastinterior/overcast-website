@@ -5,6 +5,15 @@ import NProgress from "nprogress";
 
 export default function NavigationEvents() {
     useEffect(() => {
+        // Configure NProgress
+        NProgress.configure({
+            showSpinner: false,
+            trickleSpeed: 200,
+            minimum: 0.08,
+            easing: "ease",
+            speed: 500,
+        });
+
         // Handle link clicks
         const handleClick = (e: MouseEvent) => {
             const target = e.target as HTMLElement;
