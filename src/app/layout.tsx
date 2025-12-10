@@ -2,6 +2,7 @@ import { homePageMetaData } from "../../lib/metadata/homepage";
 import { calSans, golosText, inter } from "../../lib/fonts";
 import type { Metadata } from "next";
 import type { Viewport } from "next";
+import { Suspense } from "react";
 import TopProgressBar from "@/components/shared/TopProgressBar";
 import NavigationEvents from "@/components/shared/NavigationEvents";
 import "./globals.css";
@@ -33,7 +34,9 @@ export default function RootLayout({
       <body
         className={`${calSans.variable} ${golosText.variable} ${inter.variable} antialiased`}
       >
-        <TopProgressBar />
+        <Suspense fallback={null}>
+          <TopProgressBar />
+        </Suspense>
         <NavigationEvents />
         <main className="relative min-h-screen overflow-hidden">
           {children}
