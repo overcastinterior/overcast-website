@@ -182,7 +182,7 @@ export default function Footer() {
                             <ul className="mt-3 md:mt-4 lg:mt-6 flex flex-col gap-y-5 md:gap-y-6 lg:gap-y-8 font-inter">
                                 <li>
                                     <Link
-                                        href="#"
+                                        href="mailto:websiteovercastinterior@gmail.com"
                                         className="font-normal text-white text-sm lg:text-base flex items-center gap-x-2"
                                     >
                                         <svg
@@ -199,7 +199,7 @@ export default function Footer() {
                                                 fill="white"
                                             />
                                         </svg>
-                                        abc@gmail.com
+                                        websiteovercastinterior@gmail.com
                                     </Link>
                                 </li>
                                 <li>
@@ -221,7 +221,7 @@ export default function Footer() {
                                                 fill="white"
                                             />
                                         </svg>
-                                        01786-518005
+                                        +88 01315 999944
                                     </Link>
                                 </li>
                                 <li>
@@ -244,12 +244,12 @@ export default function Footer() {
                                                 fill="white"
                                             />
                                         </svg>
-                                        H# 02 ~ R #05
+                                        House no #02 Road no #05
                                     </Link>
                                 </li>
                                 <li>
                                     <p className="font-normal text-white text-sm">
-                                        Jan-E-Saba Housing Complex - Bogura, Bangladesh - 5800
+                                        Jan-E-Saba Housing Complex - Jamil Nagar, Bogura - 5870, Bangladesh
                                     </p>
                                 </li>
                             </ul>

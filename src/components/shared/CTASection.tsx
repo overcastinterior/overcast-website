@@ -15,18 +15,16 @@ export default function CTASection() {
             <div className="container">
                 <div className="text-center">
                     <Badge
-                        text="Subscribe to the newsletter"
+                        text="FAST AND RELIABLE"
                         options="!border-[#CACACA]"
                         options2="!text-black"
                     />
                     <h2 className="font-cal font-normal text-[28px] lg:text-[40px] xl:text-[60px] text-black leading-[110%] mt-4 xl:mt-[25px]">
-                        Join Our{" "}
-                        <span className="inline-block text-primary">Design Circle</span>
+                        Contact with {" "}
+                        <span className="inline-block text-primary">Overcast</span>
                     </h2>
                     <p className="text-secondary font-normal font-golos text-xs lg:text-sm leading-[120%] xl:text-base mt-4 xl:mt-[25px] xl:max-w-[78%] mx-auto mb-6 lg:mb-12">
-                        Join our newsletter. Learn something new, gain access to exclusive
-                        content, and stay informed <br /> with the latest updates in the
-                        industry.
+                        We are here to help you with any questions or concerns you may have. Please feel free to contact us and we will get back to you as soon as possible.
                     </p>
                     <Button
                         text="Contact Us"

@@ -1,7 +1,9 @@
 import { homePageMetaData } from "../../lib/metadata/homepage";
-import { calSans,golosText,inter } from "../../lib/fonts";
+import { calSans, golosText, inter } from "../../lib/fonts";
 import type { Metadata } from "next";
-import type { Viewport } from "next"; 
+import type { Viewport } from "next";
+import TopProgressBar from "@/components/shared/TopProgressBar";
+import NavigationEvents from "@/components/shared/NavigationEvents";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -12,7 +14,14 @@ export const viewport: Viewport = {
   colorScheme: "light",
 };
 
-export const metadata: Metadata = homePageMetaData;
+export const metadata: Metadata = {
+  ...homePageMetaData,
+  icons: {
+    icon: 'images/icons/favicon.svg',
+    shortcut: 'images/icons/favicon.svg',
+    apple: 'images/icons/favicon.svg',
+  },
+};
 
 export default function RootLayout({
   children,
@@ -24,6 +33,8 @@ export default function RootLayout({
       <body
         className={`${calSans.variable} ${golosText.variable} ${inter.variable} antialiased`}
       >
+        <TopProgressBar />
+        <NavigationEvents />
         <main className="relative min-h-screen overflow-hidden">
           {children}
         </main>

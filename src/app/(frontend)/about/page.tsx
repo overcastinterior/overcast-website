@@ -3,6 +3,8 @@ import Badge from "@/components/small/Badge";
 import Link from "next/link";
 import CTASection from "@/components/shared/CTASection";
 import Footer from "@/components/shared/Footer";
+import aboutImg from "@/../public/images/360-degree.webp";
+import Image from "next/image";
 
 export const dynamic = "auto";
 
@@ -69,9 +71,7 @@ export default function AboutPage() {
                         <div className="relative">
                             <div className="relative rounded-2xl overflow-hidden">
                                 <div className="aspect-[4/3] bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                                    <p className="text-secondary/50 font-golos text-lg">
-                                        Company Image Placeholder
-                                    </p>
+                                    <Image src={aboutImg} alt="aboutImg" />
                                 </div>
                             </div>
                             {/* Decorative element */}
