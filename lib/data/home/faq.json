@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "question": "What types of projects does Overcast Interior handle?",
+    "answer": "We provide complete interior design and execution services for residential spaces, offices, restaurants, cafés, retail showrooms, and commercial establishments. From compact budgets to premium luxury projects – we offer customized solutions for every client."
+  },
+  {
+    "id": "2",
+    "question": "How does your design process work?",
+    "answer": "Our process is simple and transparent, consisting of four main stages: Consultation & Requirement Analysis – Understanding client needs, style, and budget. Concept Design & 3D Visualization – Presenting design ideas with 3D renders. Material Selection & Costing – Finalizing finishes, materials, and project cost. Execution & Handover – Delivering the project within the agreed timeline."
+  },
+  {
+    "id": "3",
+    "question": "How long does it take to complete a project?",
+    "answer": "Project timelines vary depending on size and complexity: Small residential projects: 3–4 weeks, Medium apartments/offices: 6–8 weeks, Large commercial projects: 2–3 months"
+  },
+  {
+    "id": "4",
+    "question": "How is the project budget determined?",
+    "answer": "The budget depends on several factors: Space size and requirements, Material quality and finishes, Design complexity, Client's preferences and customization. We always maintain transparent costing and provide budget-friendly options."
+  },
+  {
+    "id": "5",
+    "question": "Do you charge separately for design?",
+    "answer": "Yes, we charge for design services (2D layouts / 3D visualizations). However, if you proceed with the full execution through Overcast Interior, design fees may be partially or fully adjusted."
+  },
+  {
+    "id": "6",
+    "question": "Can I provide my own materials?",
+    "answer": "Yes, clients may supply their own materials. However, we recommend using our approved suppliers to ensure consistent quality, warranty, and proper installation support."
+  },
+  {
+    "id": "7",
+    "question": "Do you offer flexible payment options?",
+    "answer": "Yes, payments are milestone-based: Initial advance after design approval, Second installment before execution begins, Third installment during mid-stage, Final payment upon completion and handover."
+  },
+  {
+    "id": "8",
+    "question": "Do you provide after-sales support?",
+    "answer": "Absolutely. We offer post-handover support and a defined maintenance period. Our team assists with minor adjustments and ensures client satisfaction even after project completion."
+  },
+  {
+    "id": "9",
+    "question": "How can I book a consultation?",
+    "answer": "You can book a free consultation directly through our website form, or contact us via phone/WhatsApp to schedule an appointment with our design team."
+  }
+]

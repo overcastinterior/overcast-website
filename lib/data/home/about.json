@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Architectural Design",
+    "link": "#",
+    "description": "We design spaces that blend aesthetics with functionality, using light, flow, and proportion to create layouts that enhance comfort and suit your daily routines."
+  },
+  {
+    "name": "Interior Design & Planning",
+    "link": "#",
+    "description": "We create personalized interiors that reflect your taste and lifestyle, focusing on layout, color palettes, and finishes to bring harmony and style to every space."
+  },
+  {
+    "name": "Consulting Services",
+    "link": "#",
+    "description": "We provide expert advice and guidance at every stage of your project, helping you make informed decisions, optimize resources, and achieve your vision with confidence."
+  },
+  {
+    "name": "Project Management",
+    "link": "#",
+    "description": "We oversee every aspect of your project, coordinating teams, timelines, and budgets to ensure a seamless process and a result that meets your expectations."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "01",
+    "title": "Consultation",
+    "description": "Understanding your needs, style, and goals.",
+    "image": "/images/step-01.webp",
+    "className": "lg:mt-0"
+  },
+  {
+    "id": "02", 
+    "title": "Concept & Design",
+    "description": "Creating personalized layouts and mood boards.",
+    "image": "/images/step-02.webp",
+    "className": "lg:mt-[100px]"
+  },
+  {
+    "id": "03",
+    "title": "Implementation",
+    "description": "Professional project management & skilled craftsmanship.",
+    "image": "/images/step-03.webp",
+    "className": "lg:mt-[200px]"
+  },
+  {
+    "id": "04",
+    "title": "Delivery",
+    "description": "On-time, flawless handover that exceeds expectations.",
+    "image": "/images/step-04.webp",
+    "className": "lg:mt-[300px]"
+  }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "id": "1",
+        "image": "/images/projects/Drawing-Dining-Project-01.webp",
+        "alt": "recent-work-01",
+        "tags": [
+            "Full Flat",
+            "Office",
+            "1705 sft"
+        ],
+        "title": "Adv Md Abu Bakar Siddique",
+        "location": "JamilNagar, Bogura",
+        "offsetClass": "lg:mt-10"
+    },
+    {
+        "id": "2",
+        "image": "/images/projects/Office-Project-06.webp",
+        "alt": "recent-work-06",
+        "tags": [
+            "Office",
+            "450 sft"
+        ],
+        "title": "Mr. Riyad",
+        "location": "Ranirhat , Bogura",
+        "offsetClass": ""
+    },
+    {
+        "id": "3",
+        "image": "/images/projects/Gym-Project-03.webp",
+        "alt": "recent-work-03",
+        "tags": [
+            "GYM",
+            "2500 sft"
+        ],
+        "title": "APS Fitness",
+        "location": "Dhorompur, Bogura",
+        "offsetClass": "lg:mt-10"
+    },
+    {
+        "id": "4",
+        "image": "/images/projects/Office-Project-04.webp",
+        "alt": "recent-work-04",
+        "tags": [
+            "Office ",
+            "170 sft"
+        ],
+        "title": "Mr. Akib",
+        "location": "Dhorompur, Bogura",
+        "offsetClass": ""
+    },
+    {
+        "id": "5",
+        "image": "/images/projects/Open-Space-Project-05.webp",
+        "alt": "recent-work-05",
+        "tags": [
+            "Open Space",
+            "2200 sft"
+        ],
+        "title": "Giffty & Lavas Office",
+        "location": "Opposite of Central Eidgah, Bogura",
+        "offsetClass": "lg:mt-10"
+    },
+    {
+        "id": "6",
+        "image": "/images/projects/Drawing-Dining-Project-02.webp",
+        "alt": "recent-work-02",
+        "tags": [
+            "Residential",
+            "1050 sft"
+        ],
+        "title": "Mr. Anik",
+        "location": "Gazi Tower, Bogura",
+        "offsetClass": ""
+    },
+    {
+        "id": "7",
+        "image": "/images/projects/Family-Bed-Project-07.webp",
+        "alt": "recent-work-07",
+        "tags": [
+            "Residential",
+            "550 sft"
+        ],
+        "title": "Mr. Anwar Hossen",
+        "location": "Nurani Mor, Bogura",
+        "offsetClass": "lg:mt-10"
+    },
+    {
+        "id": "8",
+        "image": "/images/projects/Apprtment-Project-08.webp",
+        "alt": "recent-work-08",
+        "tags": [
+            "Residential",
+            "500 sft"
+        ],
+        "title": "Mr. MD. RATUL",
+        "location": "Rajmoti Market, Govindoganj",
+        "offsetClass": ""
+    }
+]

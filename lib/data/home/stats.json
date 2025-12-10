@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "value": 5,
+    "suffix": "",
+    "title": "Years experience",
+    "description": "Improving homes with expert craftsmanship for years"
+  },
+  {
+    "id": 2,
+    "value": 45,
+    "suffix": "+",
+    "title": "Projects completed", 
+    "description": "Over 250 successful projects delivered with quality and care"
+  },
+  {
+    "id": 3,
+    "value": 60,
+    "suffix": "+",
+    "title": "Skilled Tradespeople",
+    "description": "Our team of 30 experts ensures top-quality results"
+  },
+  {
+    "id": 4,
+    "value": 100,
+    "suffix": "+",
+    "title": "Client satisfaction",
+    "description": "All of our clients are satisfied with our work and service"
+  }
+]

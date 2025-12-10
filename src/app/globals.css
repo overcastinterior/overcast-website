@@ -1,0 +1,207 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Custom Hero Section Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-right-rotate {
+  from {
+    opacity: 0;
+    transform: translateX(50px) rotate(-180deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+/* Animation Classes */
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.6s ease-out forwards;
+}
+
+.animate-slide-up-delayed {
+  animation: slide-up 0.8s ease-out forwards;
+}
+
+.animate-slide-up-delayed-2 {
+  animation: slide-up 0.6s ease-out forwards;
+}
+
+.animate-slide-up-delayed-3 {
+  animation: slide-up 0.6s ease-out forwards;
+}
+
+.animate-slide-up-delayed-4 {
+  animation: slide-up 0.5s ease-out forwards;
+}
+
+.animate-slide-up-delayed-5 {
+  animation: slide-up 0.5s ease-out forwards;
+}
+
+.animate-slide-up-delayed-6 {
+  animation: slide-up 0.6s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.8s ease-out forwards;
+}
+
+.animate-scale-in-delayed {
+  animation: scale-in 0.6s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.7s ease-out forwards;
+}
+
+.animate-slide-in-right-rotate {
+  animation: slide-in-right-rotate 0.8s ease-out forwards;
+}
+
+@theme inline {
+ --font-inter: var(--font-inter), sans-serif;
+  --font-cal: var(--font-cal), sans-serif;
+  --font-golos: var(--font-golos), sans-serif;
+
+  /* Custom colors */
+  --color-primary: #C49D5A; 
+  --color-secondary: #585353; 
+  --color-b-primary: #AFAFAF; 
+
+  /* ADD THESE BREAKPOINTS */
+  --breakpoint-sm: 40rem;   /* 640px */
+  --breakpoint-md: 48rem;   /* 768px */
+  --breakpoint-lg: 64rem;   /* 1024px */
+  --breakpoint-xl: 80rem;   /* 1280px */
+  --breakpoint-2xl: 90rem;  /* 1395px */
+
+  /* Container sizes */
+  --container-xs: 20rem;    /* 320px */
+  --container-sm: 24rem;    /* 384px */
+  --container-md: 28rem;    /* 448px */
+  --container-lg: 32rem;    /* 512px */
+  --container-xl: 36rem;    /* 576px */
+  --container-2xl: 42rem;   /* 672px */
+  --container-custom: 87.5rem; /* 1395px */
+}
+
+/* Modern container utility */
+@utility container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+  @media (min-width: theme(--breakpoint-sm)) {
+    max-width: theme(--breakpoint-sm);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  @media (min-width: theme(--breakpoint-md)) {
+    max-width: theme(--breakpoint-md);
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  @media (min-width: theme(--breakpoint-lg)) {
+    max-width: theme(--breakpoint-lg);
+  }
+  
+  @media (min-width: theme(--breakpoint-xl)) {
+    max-width: theme(--breakpoint-xl);
+  }
+  
+  @media (min-width: theme(--breakpoint-2xl)) {
+    max-width: theme(--breakpoint-2xl);
+  }
+}
+
+.feat-ol{
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%); */
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.7) 99.94%);
+}
+
+.bg-recent-work{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 29.81%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #C49D5A 60.58%, #585353 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+.elegant-text {
+  position: relative;
+  -webkit-text-stroke: 1px rgba(196, 157, 90, 0.2);
+  text-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 0 0 rgba(196, 157, 90, 0.3);
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+}
+
+.elegant-text::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, 
+    rgba(196, 157, 90, 0.05) 0%,
+    transparent 50%,
+    rgba(88, 83, 83, 0.05) 100%);
+  border-radius: 8px;
+  z-index: -1;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}

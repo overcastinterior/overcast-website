@@ -1,0 +1,32 @@
+{
+  "siteName": "Overcast Interior",
+  "logo": "/images/logo.svg",
+  "themeColor": "#ff6600",
+  "menuItems": [
+    {
+      "name": "Home",
+      "href": "/"
+    },
+    {
+      "name": "About",
+      "href": "/about"
+    },
+    {
+      "name": "Services",
+      "href": "#",
+      "hasDropdown": true
+    },
+    {
+      "name": "Portfolio",
+      "href": "#"
+    },
+    {
+      "name": "Blog",
+      "href": "#"
+    },
+    {
+      "name": "Contact",
+      "href": "#"
+    }
+  ]
+}

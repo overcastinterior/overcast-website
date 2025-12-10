@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Md. Ruhul Amin",
+    "designation": "Managing Director",
+    "company": "Need Agro Industries",
+    "location": "Ranirhat, Bogura",
+    "projectType": "Office",
+    "feedback": "Working with Team Overcast was a pleasure. They are truly dedicated to delivering top-notch designs. Throughout the process, they demonstrated a deep understanding of Interior design principles, ensuring that every decision was thoughtfully made. Their expertise and passion for their craft were evident in every interaction, and they were responsive to our feedback, making adjustments that enhanced the overall design.",
+    "rating": 5,
+    "image": "/images/projects/Drawing-Dining-Project-01.webp"
+  },
+  {
+    "id": "2",
+    "name": "Dr. Farah Safa Haque",
+    "designation": "Dermatologist",
+    "company": "Popular Diagnostic Ltd",
+    "location": "Jalesharitola, Bogura",
+    "projectType": "Residential",
+    "feedback": "Impressed by Overcast Interior creativity and commitment to excellence. Highly recommended! What stood out to us was their ability to innovate while maintaining a focus on luxury and sophistication. They presented us with concepts that were not only aesthetically pleasing but also practical and tailored to our lifestyle. Their willingness to go above and beyond to achieve the perfect design made our experience truly exceptional.",
+    "rating": 5,
+    "image": "/images/projects/Office-Project-06.webp"
+  },
+  {
+    "id": "3",
+    "name": "Md Redwanul Islam Akib",
+    "designation": "Founder & CEO",
+    "company": "APS Billiard & APS Gym",
+    "location": "Dhorompur, Bogura",
+    "projectType": "Gym & Billiard",
+    "feedback": "Overcast Interior exceeded our expectations with their innovative approach to luxury designs. They brought fresh ideas to the table, incorporating cutting-edge design elements that set our project apart. Their team's expertise in integrating technology with design was impressive, enhancing the functionality and appeal of our space. Working with Overcast Interior was a collaborative journey that resulted in a home that reflects our personality and style.",
+    "rating": 5,
+    "image": "/images/projects/Office-Project-04.webp"
+  },
+  {
+    "id": "4",
+    "name": "Mashrukh Hamid",
+    "designation": "Owner",
+    "company": "The Breakroom & Triloka",
+    "location": "Jalesharitola, Bogura",
+    "projectType": "Restaurant Interior",
+    "feedback": "From concept to execution, the Overcast team delivered excellence. The design perfectly matches our brand identity and creates the ambiance we dreamed of. Guests love the atmosphere – it has helped our restaurant grow significantly.",
+    "rating": 5,
+    "image": "/images/projects/Gym-Project-03.webp"
+  },
+  {
+    "id": "5",
+    "name": "Md Tanzirul Sunny",
+    "designation": "Managing Director",
+    "company": "Giftex",
+    "location": "Bogura",
+    "projectType": "Corporate Office Design",
+    "feedback": "Professional, punctual, and detail-oriented – that's how I would describe Overcast Interior. Our new office not only looks premium but also boosts employee productivity. The entire process was smooth and transparent.",
+    "rating": 5,
+    "image": "/images/projects/Drawing-Dining-Project-02.webp"
+  },
+  {
+    "id": "6",
+    "name": "Md Maruf Hossain",
+    "designation": "Managing Director",
+    "company": "Raveen Apparels",
+    "location": "Bogura",
+    "projectType": "Corporate Office Interior",
+    "feedback": "Working with Overcast Interior was a fantastic experience. They understood our company culture and designed a workspace that is both professional and inspiring. The balance of functionality and aesthetics is impressive and our team feels motivated in this new environment.",
+    "rating": 5,
+    "image": "/images/projects/Apprtment-Project-08.webp"
+  }
+]

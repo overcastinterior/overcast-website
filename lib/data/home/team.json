@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Md Abu Safwan Hossain",
+        "designation": "Managing Director (MD)",
+        "image": "/images/teams/Abu-Safwan-Hossain.webp"
+    },
+    {
+        "id": "2",
+        "name": "Md Mehedy Hasan",
+        "designation": "Deputy Managing Director (MD)",
+        "image": "/images/teams/Mehedi-Hasan.webp"
+    },
+    {
+        "id": "3",
+        "name": "Md Mahamudul Hassan",
+        "designation": "Deputy Managing Director (DMD)",
+        "image": "/images/team-member.webp"
+    },
+    {
+        "id": "4",
+        "name": "Rakibul Islam",
+        "designation": "Interior Architect",
+        "image": "/images/teams/Rakibul-Islam.webp"
+    },
+    {
+        "id": "5",
+        "name": "Md Motiur Rahman (Ariyan)",
+        "designation": "Site Engineer",
+        "image": "/images/teams/Motiur-Rahman.webp"
+    },
+    {
+        "id": "6",
+        "name": "Sabbir Hossain",
+        "designation": "Site In-charge",
+        "image": "/images/teams/Sabbir-Hossain.webp"
+    }
+]

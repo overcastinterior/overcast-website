@@ -1,0 +1,37 @@
+[
+  {
+    "id": "01",
+    "title": "Residential Interiors",
+    "description": "Transform your home into a personalized sanctuary with our custom residential interior design services.",
+    "image": "/images/projects/Apprtment-Project-08.webp",
+    "link": "#"
+  },
+  {
+    "id": "02",
+    "title": "Commercial Interiors",
+    "description": "Create inspiring workspaces that enhance productivity and reflect your brand identity.",
+    "image": "/images/projects/Gym-Project-03.webp",
+    "link": "#"
+  },
+  {
+    "id": "03",
+    "title": "Renovation & Remodeling",
+    "description": "Breathe new life into existing spaces with our comprehensive renovation and remodeling services.",
+    "image": "/images/projects/Drawing-Dining-Project-02.webp",
+    "link": "#"
+  },
+  {
+    "id": "04",
+    "title": "Landscape & Outdoor Design",
+    "description": "Extend your living space outdoors with beautiful landscape and outdoor design solutions.",
+    "image": "/images/projects/Open-Space-Project-05.webp",
+    "link": "#"
+  },
+  {
+    "id": "06",
+    "title": "Consulting & Styling",
+    "description": "Get expert advice and styling consultation to perfect your interior design vision.",
+    "image": "/images/projects/Office-Project-04.webp",
+    "link": "#"
+  }
+]
