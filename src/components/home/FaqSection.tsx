@@ -128,7 +128,7 @@ const FaqSection = () => {
                 Our team is here to help. Get in touch for personalized answers and free consultation.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button className="group bg-primary hover:bg-primary/90 text-white font-cal font-normal text-sm lg:text-base px-6 lg:px-8 py-3 lg:py-4 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer">
+                <Link href="/contact" className="group bg-primary hover:bg-primary/90 text-white font-cal font-normal text-sm lg:text-base px-6 lg:px-8 py-3 lg:py-4 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer inline-flex items-center">
                   <span className="flex items-center gap-2">
                     Book Free Consultation
                     <svg
@@ -145,7 +145,7 @@ const FaqSection = () => {
                       />
                     </svg>
                   </span>
-                </button>
+                </Link>
                 <a
                   href="/contact"
                   className="inline-block px-8 py-4 rounded-full bg-primary text-white font-golos text-base lg:text-lg font-medium transition-all duration-300 hover:shadow-xl hover:bg-secondary hover:scale-105"
