@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import CommonTitle from "@/components/small/CommonTitle";
 import faqData from "../../../lib/data/home/faq.json";
 
@@ -40,8 +41,8 @@ const FaqSection = () => {
                 <div
                   key={faq.id}
                   className={`group bg-white rounded-2xl lg:rounded-[25px] border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden ${index === activeAccordion
-                      ? "shadow-xl border-primary/20 bg-gradient-to-br from-white to-primary/5"
-                      : "hover:border-gray-200"
+                    ? "shadow-xl border-primary/20 bg-gradient-to-br from-white to-primary/5"
+                    : "hover:border-gray-200"
                     }`}
                 >
                   {/* Question Header */}
@@ -54,8 +55,8 @@ const FaqSection = () => {
                         {/* Question Number */}
                         <div
                           className={`flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2 flex items-center justify-center font-cal font-normal text-sm lg:text-base transition-all duration-300 ${index === activeAccordion
-                              ? "bg-primary border-primary text-white scale-110"
-                              : "border-gray-300 text-gray-600 group-hover:border-primary group-hover:text-primary"
+                            ? "bg-primary border-primary text-white scale-110"
+                            : "border-gray-300 text-gray-600 group-hover:border-primary group-hover:text-primary"
                             }`}
                         >
                           {String(index + 1).padStart(2, "0")}
@@ -64,8 +65,8 @@ const FaqSection = () => {
                         {/* Question Text */}
                         <h3
                           className={`font-cal font-normal text-base lg:text-xl xl:text-[24px] leading-[120%] transition-all duration-300 ${index === activeAccordion
-                              ? "text-primary"
-                              : "text-black group-hover:text-primary"
+                            ? "text-primary"
+                            : "text-black group-hover:text-primary"
                             }`}
                         >
                           {faq.question}
@@ -75,14 +76,14 @@ const FaqSection = () => {
                       {/* Accordion Icon */}
                       <div
                         className={`flex-shrink-0 w-6 h-6 lg:w-8 lg:h-8 rounded-full border-2 flex items-center justify-center transition-all duration-300 transform ${index === activeAccordion
-                            ? "bg-primary border-primary rotate-180 scale-110"
-                            : "border-gray-300 group-hover:border-primary"
+                          ? "bg-primary border-primary rotate-180 scale-110"
+                          : "border-gray-300 group-hover:border-primary"
                           }`}
                       >
                         <svg
                           className={`w-3 h-3 lg:w-4 lg:h-4 transition-colors duration-300 ${index === activeAccordion
-                              ? "text-white"
-                              : "text-gray-600 group-hover:text-primary"
+                            ? "text-white"
+                            : "text-gray-600 group-hover:text-primary"
                             }`}
                           fill="none"
                           viewBox="0 0 24 24"
@@ -102,8 +103,8 @@ const FaqSection = () => {
                   {/* Answer Content */}
                   <div
                     className={`overflow-hidden transition-all duration-500 ease-in-out ${index === activeAccordion
-                        ? "max-h-96 opacity-100"
-                        : "max-h-0 opacity-0"
+                      ? "max-h-96 opacity-100"
+                      : "max-h-0 opacity-0"
                       }`}
                   >
                     <div className="px-6 lg:px-8 pb-6 lg:pb-8">
@@ -145,9 +146,12 @@ const FaqSection = () => {
                     </svg>
                   </span>
                 </button>
-                <button className="group cursor-pointer border-2 border-primary text-primary hover:bg-primary hover:text-white font-cal font-normal text-sm lg:text-base px-6 lg:px-8 py-3 lg:py-4 rounded-full transition-all duration-300 hover:scale-105">
+                <a
+                  href="/contact"
+                  className="inline-block px-8 py-4 rounded-full bg-primary text-white font-golos text-base lg:text-lg font-medium transition-all duration-300 hover:shadow-xl hover:bg-secondary hover:scale-105"
+                >
                   Contact Us
-                </button>
+                </a>
               </div>
             </div>
           </div>

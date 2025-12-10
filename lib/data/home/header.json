@@ -18,15 +18,15 @@
     },
     {
       "name": "Portfolio",
-      "href": "#"
+      "href": "/portfolio"
     },
     {
-      "name": "Blog",
-      "href": "#"
+      "name": "Team",
+      "href": "/team"
     },
     {
-      "name": "Contact",
-      "href": "#"
+      "name": "Reviews",
+      "href": "/reviews"
     }
   ]
 }

@@ -3,7 +3,8 @@ import Badge from "@/components/small/Badge";
 import Link from "next/link";
 import CTASection from "@/components/shared/CTASection";
 import Footer from "@/components/shared/Footer";
-import aboutImg from "@/../public/images/360-degree.webp";
+import aboutImg from "@/../public/images/feat-01.webp";
+import openHouse from "@/../public/images/open-house.webp";
 import Image from "next/image";
 
 export const dynamic = "auto";
@@ -70,9 +71,7 @@ export default function AboutPage() {
                         {/* Left - Image */}
                         <div className="relative">
                             <div className="relative rounded-2xl overflow-hidden">
-                                <div className="aspect-[4/3] bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                                    <Image src={aboutImg} alt="aboutImg" />
-                                </div>
+                                <Image src={aboutImg} alt="aboutImg" />
                             </div>
                             {/* Decorative element */}
                             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-2xl -z-10"></div>
@@ -102,12 +101,6 @@ export default function AboutPage() {
                                 project we undertake is a testament to our belief that great
                                 design has the power to inspire, comfort, and elevate everyday
                                 living.
-                            </p>
-                            <p className="text-secondary font-normal font-golos text-sm lg:text-base xl:text-lg leading-[160%] mt-4">
-                                Today, we stand proud as industry leaders, combining traditional
-                                craftsmanship with cutting-edge design innovation to create
-                                spaces that truly reflect our clients&apos; personalities and
-                                aspirations.
                             </p>
                         </div>
                     </div>
@@ -386,22 +379,6 @@ export default function AboutPage() {
                                     </div>
                                     <div>
                                         <h4 className="font-cal text-lg lg:text-xl text-black mb-2">
-                                            End-to-End Service
-                                        </h4>
-                                        <p className="text-secondary font-golos text-sm lg:text-base leading-[160%]">
-                                            From concept to completion, we handle every aspect of your
-                                            project with meticulous attention to detail.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                {/* Point 4 */}
-                                <div className="flex gap-4">
-                                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                                        <span className="text-primary font-cal text-xl">04</span>
-                                    </div>
-                                    <div>
-                                        <h4 className="font-cal text-lg lg:text-xl text-black mb-2">
                                             Proven Track Record
                                         </h4>
                                         <p className="text-secondary font-golos text-sm lg:text-base leading-[160%]">
@@ -416,11 +393,7 @@ export default function AboutPage() {
                         {/* Right - Image */}
                         <div className="relative order-first lg:order-last">
                             <div className="relative rounded-2xl overflow-hidden">
-                                <div className="aspect-[4/5] bg-gradient-to-br from-secondary/20 to-primary/20 flex items-center justify-center">
-                                    <p className="text-secondary/50 font-golos text-lg">
-                                        Team Image Placeholder
-                                    </p>
-                                </div>
+                                <Image src={openHouse} alt="openHouse" />
                             </div>
                             {/* Decorative element */}
                             <div className="absolute -top-6 -left-6 w-32 h-32 bg-secondary/10 rounded-2xl -z-10"></div>

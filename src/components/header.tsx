@@ -43,13 +43,12 @@ const Header = () => {
                   >
                     <button className="text-white hover:text-primary px-4 py-3 text-sm font-golos font-medium transition-colors duration-200 flex items-center gap-1">
                       {item.name}
-                      <ChevronDown 
-                        className={`w-4 h-4 transition-transform duration-200 ${
-                          isServicesDropdownOpen ? 'rotate-180' : ''
-                        }`} 
+                      <ChevronDown
+                        className={`w-4 h-4 transition-transform duration-200 ${isServicesDropdownOpen ? 'rotate-180' : ''
+                          }`}
                       />
                     </button>
-                    
+
                     <AnimatePresence>
                       {isServicesDropdownOpen && (
                         <motion.div
@@ -91,8 +90,14 @@ const Header = () => {
           </nav>
 
           {/* Desktop Sign In Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
-            <Button text="Contact Us" options="transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/25" />
+          <div className="hidden md:flex">
+            {/* Contact Button - Desktop */}
+            <Link
+              href="/contact"
+              className="hidden lg:inline-block px-8 py-3 rounded-full bg-primary text-white font-golos text-base font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/25"
+            >
+              Contact Us
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -115,10 +120,10 @@ const Header = () => {
         <AnimatePresence>
           {isMenuOpen && (
             <div
-              className="md:hidden border-t border-white/20" 
+              className="md:hidden border-t border-white/20"
             >
               <div
-                className="py-4 space-y-2" 
+                className="py-4 space-y-2"
               >
                 {headerData.menuItems.map((item) => (
                   <div key={item.name}>
@@ -129,13 +134,12 @@ const Header = () => {
                           className="w-full flex items-center justify-between text-black hover:text-gray-900 hover:bg-gray-50 px-4 py-2 text-base font-golos font-medium rounded-md transition-colors duration-200"
                         >
                           {item.name}
-                          <ChevronDown 
-                            className={`w-4 h-4 transition-transform duration-200 ${
-                              isMobileServicesOpen ? 'rotate-180' : ''
-                            }`} 
+                          <ChevronDown
+                            className={`w-4 h-4 transition-transform duration-200 ${isMobileServicesOpen ? 'rotate-180' : ''
+                              }`}
                           />
                         </button>
-                        
+
                         <AnimatePresence>
                           {isMobileServicesOpen && (
                             <motion.div
@@ -180,12 +184,16 @@ const Header = () => {
                   </div>
                 ))}
                 <div
-                  className="pt-4 border-t border-gray-200 mt-4 space-y-2" 
+                  className="pt-4 border-t border-gray-200 mt-4 space-y-2"
                 >
-                  <button className="w-full text-left bg-primary text-white hover:bg-gray-800 px-4 py-3 rounded-[20px] text-base font-golos font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/25 relative overflow-hidden group">
+                  {/* Contact Button - Mobile */}
+                  <Link
+                    href="/contact"
+                    className="relative mt-6 w-full px-8 py-4 rounded-full bg-primary text-white font-golos text-base font-medium transition-all duration-300 hover:bg-secondary overflow-hidden group"
+                  >
                     <span className="relative z-10">Contact Us</span>
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary to-primary-dark transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                  </button>
+                    <span className="absolute inset-0 bg-gradient-to-r from-primary to-secondary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                  </Link>
                 </div>
               </div>
             </div>

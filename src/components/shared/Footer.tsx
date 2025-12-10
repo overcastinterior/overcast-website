@@ -108,7 +108,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <Link
-                                        href="#"
+                                        href="/portfolio"
                                         className="font-normal text-white text-sm lg:text-base block"
                                     >
                                         Portfolio
@@ -116,7 +116,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <Link
-                                        href="#"
+                                        href="/contact"
                                         className="font-normal text-white text-sm lg:text-base block"
                                     >
                                         Contact Us
@@ -269,7 +269,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="/terms"
                                     className="font-normal text-sm lg:text-base text-white block"
                                 >
                                     Terms of Service
@@ -277,7 +277,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="/privacy"
                                     className="font-normal text-sm lg:text-base text-white block"
                                 >
                                     Privacy Policy
