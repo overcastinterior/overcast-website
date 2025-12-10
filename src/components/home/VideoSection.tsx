@@ -2,6 +2,9 @@
 
 import { useState } from "react";
 import ButtonTransparent from "@/components/small/ButtonTransparent";
+import playIcon from "@/../public/images/icons/play-icon.svg";
+import videoImg from "@/../public/images/video-thumb.webp";
+import Image from "next/image";
 
 const VideoSection = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -13,7 +16,15 @@ const VideoSection = () => {
     setIsVideoPlaying(true);
   };
   return <>
-    <section className="w-full object-center bg-black">
+    <section
+      className="w-full object-center"
+      style={{
+        backgroundImage: "url('/images/video-bg.webp')",
+        backgroundPosition: "center center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
       <div className="w-full bg-black/80 py-10 pb-6 xl:py-[100px] relative xl:pb-8">
         <div className="container">
           <div className="w-full flex flex-col items-end lg:flex-row lg:justify-between">
@@ -33,32 +44,29 @@ const VideoSection = () => {
           </div>
 
           <div className="w-full mt-8 md:mt-12 lg:mt-20 relative group">
-            {/* Video Placeholder - No Image */}
-            <div className={`relative transition-all duration-500 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl xl:rounded-[25px] aspect-video flex items-center justify-center ${isVideoPlaying ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
+            {/* Video Thumbnail - Always shown initially */}
+            <div className={`relative transition-all duration-500 ${isVideoPlaying ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
+              <Image
+                src={videoImg}
+                alt="Video Thumbnail - Click to play"
+                className="rounded-xl xl:rounded-[25px] w-full transition-transform duration-300 group-hover:scale-105"
+              />
 
-              {/* Decorative Pattern */}
-              <div className="absolute inset-0 opacity-10">
-                <div className="absolute inset-0" style={{
-                  backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)',
-                  backgroundSize: '30px 30px'
-                }}></div>
-              </div>
+              {/* Hover overlay */}
+              <div className="absolute inset-0 bg-black/20 rounded-xl xl:rounded-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
               {/* Play button */}
               <div
-                className="relative z-20 cursor-pointer"
+                className="absolute left-0 top-0 w-full h-full z-20 flex justify-center items-center cursor-pointer"
                 onClick={handleVideoPlay}
               >
                 <div className="w-20 h-20 lg:w-[120px] lg:h-[120px] rounded-full bg-white/20 flex justify-center items-center outline outline-white m-1 p-1 transition-all duration-300 group-hover:bg-white/30 group-hover:scale-110 group-hover:outline-primary">
-                  <svg className="w-8 h-8 lg:w-12 lg:h-12 text-white transition-transform duration-200 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
+                  <Image
+                    src={playIcon}
+                    alt="Play video"
+                    className="transition-transform duration-200 group-hover:scale-110"
+                  />
                 </div>
-              </div>
-
-              {/* Text Label */}
-              <div className="absolute bottom-6 left-6 text-white">
-                <p className="font-cal text-lg lg:text-xl">Click to Watch Our Story</p>
               </div>
             </div>
 

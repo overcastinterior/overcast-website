@@ -2,7 +2,6 @@
 import { Metadata } from 'next'
 
 export const homePageMetaData: Metadata = {
-  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'http://overcastinteriorltd.com/' : 'http://localhost:3000'),
 
   // Basic SEO
   title: 'Overcast Interior',
@@ -10,17 +9,17 @@ export const homePageMetaData: Metadata = {
   keywords: ['keyword1', 'keyword2', 'keyword3'],
 
   // Authors & Generator
-  authors: [{ name: 'Your Name', url: 'http://overcastinteriorltd.com/' }],
-  creator: 'Your Name',
-  publisher: 'Your Company',
+  authors: [{ name: 'Akram', url: 'http://overcastinteriorltd.com/' }],
+  creator: 'Akram',
+  publisher: 'Overcast Interior',
   generator: 'Next.js',
 
   // Open Graph (Facebook, LinkedIn)
   openGraph: {
-    title: 'Your Page Title',
+    title: 'Overcast Interior',
     description: 'Description for social media',
     url: 'http://overcastinteriorltd.com/',
-    siteName: 'Your Site Name',
+    siteName: 'Overcast Interior',
     images: [
       {
         url: '/og-image.jpg', // 1200x630px recommended

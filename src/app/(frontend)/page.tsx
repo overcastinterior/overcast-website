@@ -62,20 +62,16 @@ export default function HomePage() {
       {/* step section end */}
 
       {/* recent projects section start */}
-      <RecentProject />
+      {/* <RecentProject /> */}
       {/* recent projects section end */}
 
-
-
       {/* team section start */}
-      {/* <TeamSection /> */}
+      <TeamSection />
       {/* team section end */}
 
       {/* video play section end */}
       <VideoSection />
       {/* video play section end */}
-
-
 
       {/* testimonial section start */}
       <TestimonialSection />
