@@ -18,9 +18,9 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   ...homePageMetaData,
   icons: {
-    icon: 'images/icons/favicon.svg',
-    shortcut: 'images/icons/favicon.svg',
-    apple: 'images/icons/favicon.svg',
+    icon: '/images/icons/favicon.svg',
+    shortcut: '/images/icons/favicon.svg',
+    apple: '/images/icons/favicon.svg',
   },
 };
 

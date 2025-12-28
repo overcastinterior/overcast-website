@@ -5,11 +5,8 @@
   "menuItems": [
     {
       "name": "Home",
-      "href": "/"
-    },
-    {
-      "name": "About",
-      "href": "/about"
+      "href": "/",
+      "hasDropdown": false
     },
     {
       "name": "Services",
@@ -18,15 +15,23 @@
     },
     {
       "name": "Portfolio",
-      "href": "/portfolio"
+      "href": "/portfolio",
+      "hasDropdown": false
+    },
+    {
+      "name": "About",
+      "href": "/about",
+      "hasDropdown": false
     },
     {
       "name": "Team",
-      "href": "/team"
+      "href": "/team",
+      "hasDropdown": false
     },
     {
       "name": "Reviews",
-      "href": "/reviews"
+      "href": "/reviews",
+      "hasDropdown": false
     }
   ]
 }

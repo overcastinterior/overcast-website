@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import logo from "@/../public/images/logo.svg";
 import Button from "./small/Button";
 import headerData from "../../lib/data/home/header.json";
-import serviceData from "../../lib/data/home/about.json";
+import serviceData from "../../lib/data/home/dropdown.json";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

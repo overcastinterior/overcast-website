@@ -65,7 +65,7 @@ export default function FeatureSection() {
                       className="shrink-0 w-5 xl:w-[24px] transform transition-all duration-300 group-hover:scale-125 group-hover:rotate-12 group-hover:brightness-125"
                     />
                     <p className="font-normal text-sm lg:text-base xl:text-lg text-white leading-[110%] transform transition-all duration-300 group-hover:text-primary">
-                      15-Year`s quality assurance on all design projects.
+                      05-Year`s quality assurance on all design projects.
                     </p>
                   </li>
                   <li className="flex items-center gap-x-2.5 group transform transition-all duration-300 delay-150 hover:translate-x-2 hover:scale-105">

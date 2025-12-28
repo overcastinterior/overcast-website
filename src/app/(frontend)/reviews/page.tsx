@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import Badge from "@/components/small/Badge";
 import Link from "next/link";
 import CTASection from "@/components/shared/CTASection";

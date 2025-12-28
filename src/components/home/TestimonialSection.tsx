@@ -68,12 +68,12 @@ const TestimonialSection = () => {
             {/* Testimonial Content */}
             <div className="lg:col-span-7 order-2 lg:order-1">
               <div className="relative">
-                {testimonials.map((testimonial, index) => (
+                {testimonials.slice(0, 4).map((testimonial, index) => (
                   <div
                     key={testimonial.id}
                     className={`transition-all duration-700 ease-in-out ${index === activeTestimonial
-                        ? "opacity-100 translate-x-0"
-                        : "opacity-0 translate-x-4 absolute inset-0"
+                      ? "opacity-100 translate-x-0"
+                      : "opacity-0 translate-x-4 absolute inset-0"
                       }`}
                   >
                     {/* Quote Icon */}
@@ -137,13 +137,13 @@ const TestimonialSection = () => {
             <div className="lg:col-span-5 order-1 lg:order-2">
               {/* Client Selection List */}
               <div className="space-y-3">
-                {testimonials.map((testimonial, index) => (
+                {testimonials.slice(0, 4).map((testimonial, index) => (
                   <button
                     key={testimonial.id}
                     onClick={() => handleTestimonialClick(index)}
                     className={`w-full text-left p-4 lg:p-5 rounded-xl transition-all duration-300 transform hover:scale-102 ${index === activeTestimonial
-                        ? "bg-primary text-white shadow-lg scale-102"
-                        : "bg-white hover:bg-gray-50 text-gray-800 shadow-md"
+                      ? "bg-primary text-white shadow-lg scale-102"
+                      : "bg-white hover:bg-gray-50 text-gray-800 shadow-md"
                       }`}
                   >
                     <div className="flex items-start justify-between gap-3">
@@ -151,8 +151,8 @@ const TestimonialSection = () => {
                         <div className="flex items-center gap-2 mb-2">
                           <div
                             className={`w-10 h-10 rounded-full flex items-center justify-center font-cal font-bold text-sm ${index === activeTestimonial
-                                ? "bg-white text-primary"
-                                : "bg-primary/10 text-primary"
+                              ? "bg-white text-primary"
+                              : "bg-primary/10 text-primary"
                               }`}
                           >
                             {testimonial.name
@@ -164,16 +164,16 @@ const TestimonialSection = () => {
                           <div>
                             <h5
                               className={`font-cal font-normal text-base lg:text-lg ${index === activeTestimonial
-                                  ? "text-white"
-                                  : "text-black"
+                                ? "text-white"
+                                : "text-black"
                                 }`}
                             >
                               {testimonial.name}
                             </h5>
                             <p
                               className={`font-golos text-xs lg:text-sm ${index === activeTestimonial
-                                  ? "text-white/90"
-                                  : "text-gray-600"
+                                ? "text-white/90"
+                                : "text-gray-600"
                                 }`}
                             >
                               {testimonial.designation}
@@ -183,8 +183,8 @@ const TestimonialSection = () => {
                         <div className="flex items-center gap-2 flex-wrap">
                           <span
                             className={`inline-flex items-center gap-1 px-2 py-1 rounded-full text-xs ${index === activeTestimonial
-                                ? "bg-white/20 text-white"
-                                : "bg-gray-100 text-gray-600"
+                              ? "bg-white/20 text-white"
+                              : "bg-gray-100 text-gray-600"
                               }`}
                           >
                             <svg
@@ -202,8 +202,8 @@ const TestimonialSection = () => {
                           </span>
                           <span
                             className={`px-2 py-1 rounded-full text-xs ${index === activeTestimonial
-                                ? "bg-white text-primary"
-                                : "bg-primary/10 text-primary"
+                              ? "bg-white text-primary"
+                              : "bg-primary/10 text-primary"
                               }`}
                           >
                             {testimonial.projectType}
@@ -234,11 +234,11 @@ const TestimonialSection = () => {
               <div className="mt-6 lg:mt-8">
                 <div className="flex items-center justify-between mb-2">
                   <span className="font-golos text-xs lg:text-sm text-[#585353]">
-                    Client {activeTestimonial + 1} of {testimonials.length}
+                    Client {activeTestimonial + 1} of {testimonials.slice(0, 4).length}
                   </span>
                   <span className="font-golos text-xs lg:text-sm text-primary">
                     {Math.round(
-                      ((activeTestimonial + 1) / testimonials.length) * 100
+                      ((activeTestimonial + 1) / testimonials.slice(0, 4).length) * 100
                     )}
                     %
                   </span>
@@ -247,7 +247,7 @@ const TestimonialSection = () => {
                   <div
                     className="bg-primary h-2 rounded-full transition-all duration-500 ease-out"
                     style={{
-                      width: `${((activeTestimonial + 1) / testimonials.length) * 100
+                      width: `${((activeTestimonial + 1) / testimonials.slice(0, 4).length) * 100
                         }%`,
                     }}
                   ></div>

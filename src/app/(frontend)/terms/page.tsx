@@ -1,4 +1,4 @@
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import Badge from "@/components/small/Badge";
 import Link from "next/link";
 import Footer from "@/components/shared/Footer";

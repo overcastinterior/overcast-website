@@ -1,4 +1,4 @@
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import AboutSection from "@/components/home/AboutSection";
 import Button from "@/components/small/Button";
 import HeroSection from "@/components/home/HeroSection";
@@ -66,7 +66,7 @@ export default function HomePage() {
       {/* recent projects section end */}
 
       {/* team section start */}
-      <TeamSection />
+      {/* <TeamSection /> */}
       {/* team section end */}
 
       {/* video play section end */}
@@ -76,7 +76,6 @@ export default function HomePage() {
       {/* testimonial section start */}
       <TestimonialSection />
       {/* testimonial section end */}
-
 
       {/* cta section start */}
       <CTASection />
