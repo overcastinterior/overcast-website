@@ -25,10 +25,11 @@ export const homePageMetaData: Metadata = {
     siteName: 'Overcast Interior',
     images: [
       {
-        url: '/images/og-graph.webp',
+        url: '/images/open-graph.jpg', // JPG is required for best WhatsApp compatibility
         width: 1200,
         height: 630,
-        alt: 'OVERCAST INTERIOR',
+        alt: 'Overcast Interior',
+        type: 'image/jpeg',
       }
     ],
     locale: 'en_US',
@@ -42,7 +43,7 @@ export const homePageMetaData: Metadata = {
     description: 'Best Interior Design Company in Bangladesh',
     creator: '@OvercastInterior',
     site: '@OvercastInterior',
-    images: ['/images/og-graph.webp'],
+    images: ['/images/open-graph.jpg'],
   },
 
   // Robots & Indexing
