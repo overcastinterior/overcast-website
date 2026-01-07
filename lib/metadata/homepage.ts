@@ -6,7 +6,7 @@ export const homePageMetaData: Metadata = {
   // Basic SEO
   title: 'Overcast Interior',
   description: 'Description for search engines',
-  keywords: ['keyword1', 'keyword2', 'keyword3'],
+  keywords: ['interior design', 'interior design company', 'interior design services', 'interior design company in', 'interior design company in ', 'interior design company in ', 'interior design company in ', 'interior design company in ', 'interior design company in ', 'interior design company in '],
 
   // Authors & Generator
   authors: [{ name: 'Akram', url: 'http://overcastinteriorltd.com/' }],
@@ -57,10 +57,10 @@ export const homePageMetaData: Metadata = {
 
   // Canonical URL
   alternates: {
-    canonical: 'https://yoursite.com/current-page',
+    canonical: 'https://www.overcastinteriorltd.com/',
     languages: {
-      'en-US': 'https://yoursite.com/en',
-      'es-ES': 'https://yoursite.com/es',
+      'en-US': 'https://www.overcastinteriorltd.com/en',
+      'es-ES': 'https://www.overcastinteriorltd.com/es',
     },
   },
 
