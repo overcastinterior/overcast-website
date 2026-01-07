@@ -75,6 +75,7 @@ export default function ProjectGallery({ images, projectTitle }: ProjectGalleryP
                             <img
                                 src={image}
                                 alt={`${projectTitle} - Image ${index + 1}`}
+                                loading="lazy"
                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                             />
 
