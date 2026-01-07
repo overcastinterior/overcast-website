@@ -25,7 +25,7 @@ export const homePageMetaData: Metadata = {
     siteName: 'Overcast Interior',
     images: [
       {
-        url: '/og-image.jpg', // 1200x630px recommended
+        url: '/images/og-graph.webp', // 1200x630px recommended
         width: 1200,
         height: 630,
         alt: 'Alt text for image',
@@ -42,7 +42,7 @@ export const homePageMetaData: Metadata = {
     description: 'Description for Twitter',
     creator: '@yourusername',
     site: '@yoursite',
-    images: ['/twitter-image.jpg'], // 1200x600px recommended
+    images: ['/images/og-graph.webp'], // 1200x600px recommended
   },
 
   // Robots & Indexing
@@ -74,16 +74,6 @@ export const homePageMetaData: Metadata = {
     shortcut: '/images/favicon.svg',
   },
   manifest: '/images/site.webmanifest',
-
-  // Verification (Google, Bing, etc.)
-  verification: {
-    google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
-    yahoo: 'your-yahoo-verification-code',
-    other: {
-      'msvalidate.01': 'your-bing-verification-code',
-    },
-  },
 
   // Additional Meta Tags
   other: {
