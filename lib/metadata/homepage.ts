@@ -8,41 +8,41 @@ export const homePageMetaData: Metadata = {
 
   // Basic SEO
   title: 'Overcast Interior',
-  description: 'Description for search engines',
+  description: 'Best Interior Design Company in Bangladesh',
   keywords: ['interior design', 'interior design company', 'interior design services', 'interior design company in', 'interior design company in ', 'interior design company in ', 'interior design company in ', 'interior design company in ', 'interior design company in ', 'interior design company in '],
 
   // Authors & Generator
-  authors: [{ name: 'Akram', url: 'http://overcastinteriorltd.com/' }],
-  creator: 'Akram',
+  authors: [{ name: 'Nayan Akram', url: 'https://nayan-akram.vercel.app/' }],
+  creator: 'Nayan Akram',
   publisher: 'Overcast Interior',
   generator: 'Next.js',
 
   // Open Graph (Facebook, LinkedIn)
   openGraph: {
     title: 'Overcast Interior',
-    description: 'Description for social media',
-    url: 'http://overcastinteriorltd.com/',
+    description: 'Best Interior Design Company in Bangladesh',
+    url: 'https://www.overcastinteriorltd.com/',
     siteName: 'Overcast Interior',
     images: [
       {
-        url: '/images/og-graph.webp', // 1200x630px recommended
+        url: '/images/og-graph.webp',
         width: 1200,
         height: 630,
-        alt: 'Alt text for image',
+        alt: 'OVERCAST INTERIOR',
       }
     ],
     locale: 'en_US',
-    type: 'website', // or 'article', 'product', etc.
+    type: 'website',
   },
 
   // Twitter/X
   twitter: {
-    card: 'summary_large_image', // or 'summary'
-    title: 'Your Page Title',
-    description: 'Description for Twitter',
-    creator: '@yourusername',
-    site: '@yoursite',
-    images: ['/images/og-graph.webp'], // 1200x600px recommended
+    card: 'summary_large_image',
+    title: 'Overcast Interior',
+    description: 'Best Interior Design Company in Bangladesh',
+    creator: '@OvercastInterior',
+    site: '@OvercastInterior',
+    images: ['/images/og-graph.webp'],
   },
 
   // Robots & Indexing
@@ -63,7 +63,6 @@ export const homePageMetaData: Metadata = {
     canonical: 'https://www.overcastinteriorltd.com/',
     languages: {
       'en-US': 'https://www.overcastinteriorltd.com/en',
-      'es-ES': 'https://www.overcastinteriorltd.com/es',
     },
   },
 
