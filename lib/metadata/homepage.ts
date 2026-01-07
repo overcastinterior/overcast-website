@@ -3,6 +3,9 @@ import { Metadata } from 'next'
 
 export const homePageMetaData: Metadata = {
 
+  // Metadata Base URL (fixes social media image resolution warning)
+  metadataBase: new URL('https://www.overcastinteriorltd.com'),
+
   // Basic SEO
   title: 'Overcast Interior',
   description: 'Description for search engines',
