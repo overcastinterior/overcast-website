@@ -217,7 +217,7 @@ export default function ContactPage() {
                                         <div>
                                             <h3 className="font-cal text-xl text-black mb-2">Phone Number</h3>
                                             <p className="text-secondary font-golos text-sm lg:text-base leading-relaxed">
-                                                01786-518005
+                                                +88 01786-518005
                                             </p>
                                         </div>
                                     </div>

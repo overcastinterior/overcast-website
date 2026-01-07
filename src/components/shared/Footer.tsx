@@ -220,7 +220,7 @@ export default function Footer() {
                                                 fill="white"
                                             />
                                         </svg>
-                                        01786-518005
+                                        +88 01786-518005
                                     </Link>
                                 </li>
                                 <li>
