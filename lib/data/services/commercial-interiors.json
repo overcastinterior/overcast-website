@@ -1,0 +1,80 @@
+{
+    "slug": "commercial-interiors",
+    "name": "Commercial Interiors",
+    "hero": {
+        "badge": "Commercial Design",
+        "title": "Elevate Your Workspace Into a",
+        "titleAccent": "Productive Environment",
+        "description": "We design commercial spaces that inspire productivity, reflect your brand identity, and create lasting impressions on clients and employees.",
+        "backgroundImage": "/images/hero-bg.webp"
+    },
+    "intro": {
+        "badge": "Professional Spaces",
+        "title": "Designing Workspaces That",
+        "titleAccent": "Drive Success",
+        "description": "Your workspace is more than just an office—it's where ideas flourish, teams collaborate, and businesses grow. We specialize in creating commercial interiors that balance functionality with aesthetics, ensuring your space works as hard as your team does."
+    },
+    "process": {
+        "badge": "Our Process",
+        "title": "From Concept to",
+        "titleAccent": "Completion",
+        "description": "A proven methodology that delivers exceptional commercial spaces on time and within budget.",
+        "steps": [
+            {
+                "id": "01",
+                "title": "Requirement Analysis",
+                "description": "We analyze your business needs, workflow, employee count, and brand identity to create a comprehensive project brief.",
+                "icon": "consultation"
+            },
+            {
+                "id": "02",
+                "title": "Space Planning",
+                "description": "Strategic layout design optimizing space utilization, traffic flow, and departmental adjacencies for maximum efficiency.",
+                "icon": "design"
+            },
+            {
+                "id": "03",
+                "title": "Branding Integration",
+                "description": "We incorporate your brand colors, values, and identity into the design to create a cohesive and professional environment.",
+                "icon": "branding"
+            },
+            {
+                "id": "04",
+                "title": "Execution & Build",
+                "description": "Professional project management with minimal disruption to your operations, ensuring quality and timely delivery.",
+                "icon": "execution"
+            },
+            {
+                "id": "05",
+                "title": "Handover & Support",
+                "description": "Complete handover with documentation, warranty support, and post-installation assistance for a smooth transition.",
+                "icon": "delivery"
+            }
+        ]
+    },
+    "offerings": [
+        {
+            "title": "Corporate Offices",
+            "description": "Modern office designs with collaborative spaces, private cabins, and meeting rooms."
+        },
+        {
+            "title": "Retail Spaces",
+            "description": "Eye-catching retail interiors that enhance customer experience and drive sales."
+        },
+        {
+            "title": "Restaurants & Cafes",
+            "description": "Inviting dining spaces with perfect ambiance, efficient layouts, and brand storytelling."
+        },
+        {
+            "title": "Healthcare Facilities",
+            "description": "Clean, calming, and functional interiors for clinics, hospitals, and medical centers."
+        }
+    ],
+    "video": {
+        "badge": "See Our Work",
+        "title": "Watch Our Commercial",
+        "titleAccent": "Projects Come to Life",
+        "description": "Take a virtual tour of our completed commercial projects and see how we transform ordinary spaces into extraordinary workplaces.",
+        "youtubeUrl": "https://www.youtube.com/embed/XDf3WTYAERM"
+    }
+}

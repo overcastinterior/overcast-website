@@ -1,0 +1,116 @@
+[
+    {
+        "id": "2",
+        "slug": "mr-riyad-office",
+        "image": "/images/projects/Office-Project-06.webp",
+        "alt": "Office interior design",
+        "tags": [
+            "Office",
+            "450 sft"
+        ],
+        "title": "Mr. Riyad",
+        "location": "Ranirhat, Bogura",
+        "category": "commercial",
+        "clientName": "Mr. Riyad",
+        "description": "A modern office space designed to boost productivity and create a professional atmosphere. This 450 sqft office features ergonomic workstations, efficient storage solutions, and a contemporary aesthetic that reflects the client's brand identity. The design incorporates natural lighting and a neutral color palette to create a calm, focused work environment.",
+        "completionDate": "November 2024",
+        "duration": "1.5 months",
+        "images": [
+            "/images/projects/Office-Project-06.webp",
+            "/images/projects/Office-Project-06-img-2.webp",
+            "/images/projects/Office-Project-06-img-3.webp",
+            "/images/projects/Office-Project-06-img-4.webp"
+        ],
+        "videoUrl": "",
+        "testimonial": {
+            "text": "The new office design has significantly improved our team's productivity and morale. Excellent work!",
+            "author": "Mr. Riyad"
+        }
+    },
+    {
+        "id": "4",
+        "slug": "mr-akib-office",
+        "image": "/images/projects/Office-Project-04.webp",
+        "alt": "Office interior design",
+        "tags": [
+            "Office",
+            "170 sft"
+        ],
+        "title": "Mr. Akib",
+        "location": "Dhorompur, Bogura",
+        "category": "commercial",
+        "clientName": "Mr. Akib",
+        "description": "A compact yet efficient office design that maximizes functionality in a limited space. This 170 sqft office proves that great design doesn't require a large footprint. Smart furniture choices, vertical storage solutions, and strategic lighting create a professional workspace that's both practical and stylish.",
+        "completionDate": "October 2024",
+        "duration": "1 month",
+        "images": [
+            "/images/projects/Office-Project-04.webp",
+            "/images/projects/Office-Project-04-img-2.webp",
+            "/images/projects/Office-Project-04-img-3.webp"
+        ],
+        "videoUrl": "",
+        "testimonial": {
+            "text": "They made the most of our small space. The office is now functional, professional, and comfortable.",
+            "author": "Mr. Akib"
+        }
+    },
+    {
+        "id": "5",
+        "slug": "giffty-lavas-office",
+        "image": "/images/projects/Open-Space-Project-05.webp",
+        "alt": "Open space office design",
+        "tags": [
+            "Open Space",
+            "2200 sft"
+        ],
+        "title": "Giffty & Lavas Office",
+        "location": "Opposite of Central Eidgah, Bogura",
+        "category": "commercial",
+        "clientName": "Giffty & Lavas",
+        "description": "A spacious open-plan office designed to foster collaboration and creativity. This 2200 sqft workspace features flexible workstations, breakout areas, meeting rooms, and a modern aesthetic that inspires innovation. The design balances open collaboration spaces with private areas for focused work, creating an ideal environment for a growing team.",
+        "completionDate": "December 2024",
+        "duration": "3 months",
+        "images": [
+            "/images/projects/Open-Space-Project-05.webp",
+            "/images/projects/Open-Space-Project-05-img-2.webp",
+            "/images/projects/Open-Space-Project-05-img-3.webp",
+            "/images/projects/Open-Space-Project-05-img-4.webp",
+            "/images/projects/Open-Space-Project-05-img-5.webp"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "testimonial": {
+            "text": "Our new office space has transformed how our team works. The design is both beautiful and highly functional.",
+            "author": "Giffty & Lavas Management"
+        }
+    },
+    {
+        "id": "3",
+        "slug": "aps-fitness-gym",
+        "image": "/images/projects/Gym-Project-03.webp",
+        "alt": "Gym interior design",
+        "tags": [
+            "GYM",
+            "2500 sft"
+        ],
+        "title": "APS Fitness",
+        "location": "Dhorompur, Bogura",
+        "category": "commercial",
+        "clientName": "APS Fitness",
+        "description": "A state-of-the-art fitness center designed to motivate and energize. This 2500 sqft gym features dedicated zones for cardio, strength training, and functional fitness. The design incorporates industrial elements, bold colors, and strategic lighting to create an inspiring workout environment. High-quality flooring, mirrors, and ventilation ensure both aesthetics and functionality.",
+        "completionDate": "September 2024",
+        "duration": "2.5 months",
+        "images": [
+            "/images/projects/Gym-Project-03.webp",
+            "/images/projects/Gym-Project-03-img-2.webp",
+            "/images/projects/Gym-Project-03-img-3.webp",
+            "/images/projects/Gym-Project-03-img-4.webp",
+            "/images/projects/Gym-Project-03-img-5.webp",
+            "/images/projects/Gym-Project-03-img-6.webp"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "testimonial": {
+            "text": "The gym looks incredible! Our members love the new space and we've seen a significant increase in sign-ups.",
+            "author": "APS Fitness Owner"
+        }
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "id": "1",
+        "slug": "adv-md-abu-bakar-siddique-residence",
+        "image": "/images/projects/Drawing-Dining-Project-01.webp",
+        "alt": "Full flat interior design",
+        "tags": [
+            "Full Flat",
+            "1705 sft"
+        ],
+        "title": "Adv Md Abu Bakar Siddique",
+        "location": "JamilNagar, Bogura",
+        "category": "residential",
+        "clientName": "Adv Md Abu Bakar Siddique",
+        "description": "A complete interior design transformation of a 1705 sqft residential flat in JamilNagar, Bogura. This project showcases a perfect blend of modern aesthetics and functional living spaces. We created a warm and inviting atmosphere with carefully selected materials, custom furniture, and thoughtful space planning that maximizes natural light and ventilation.",
+        "completionDate": "December 2024",
+        "duration": "3 months",
+        "images": [
+            "/images/projects/Drawing-Dining-Project-01.webp",
+            "/images/projects/Drawing-Dining-Project-01-img-2.webp",
+            "/images/projects/Drawing-Dining-Project-01-img-3.webp",
+            "/images/projects/Drawing-Dining-Project-01-img-4.webp",
+            "/images/projects/Drawing-Dining-Project-01-img-5.webp"
+        ],
+        "videoUrl": "",
+        "testimonial": {
+            "text": "The team at Overcast Interior exceeded our expectations. They transformed our flat into a beautiful, functional home that perfectly reflects our style and needs.",
+            "author": "Adv Md Abu Bakar Siddique"
+        }
+    },
+    {
+        "id": "6",
+        "slug": "mr-anik-residence",
+        "image": "/images/projects/Drawing-Dining-Project-02.webp",
+        "alt": "Residential interior design",
+        "tags": [
+            "Residential",
+            "1050 sft"
+        ],
+        "title": "Mr. Anik",
+        "location": "Gazi Tower, Bogura",
+        "category": "residential",
+        "clientName": "Mr. Anik",
+        "description": "A sophisticated residential interior design project for a 1050 sqft apartment in Gazi Tower. The design focuses on creating an elegant yet comfortable living space with modern furnishings, premium finishes, and smart storage solutions. Every corner of this home has been thoughtfully designed to enhance the living experience.",
+        "completionDate": "November 2024",
+        "duration": "2.5 months",
+        "images": [
+            "/images/projects/Drawing-Dining-Project-02.webp",
+            "/images/projects/Drawing-Dining-Project-02-img-2.webp",
+            "/images/projects/Drawing-Dining-Project-02-img-3.webp",
+            "/images/projects/Drawing-Dining-Project-02-img-4.webp"
+        ],
+        "videoUrl": "",
+        "testimonial": {
+            "text": "Outstanding work! The attention to detail and quality of craftsmanship is evident in every aspect of the design. Highly recommended!",
+            "author": "Mr. Anik"
+        }
+    },
+    {
+        "id": "7",
+        "slug": "mr-anwar-hossen-residence",
+        "image": "/images/projects/Family-Bed-Project-07.webp",
+        "alt": "Bedroom interior design",
+        "tags": [
+            "Residential",
+            "550 sft"
+        ],
+        "title": "Mr. Anwar Hossen",
+        "location": "Nurani Mor, Bogura",
+        "category": "residential",
+        "clientName": "Mr. Anwar Hossen",
+        "description": "A cozy and intimate residential space designed for comfort and relaxation. This 550 sqft project features a beautifully designed bedroom suite with custom wardrobes, ambient lighting, and a calming color palette. The design prioritizes functionality while maintaining a luxurious aesthetic.",
+        "completionDate": "October 2024",
+        "duration": "1.5 months",
+        "images": [
+            "/images/projects/Family-Bed-Project-07.webp",
+            "/images/projects/Family-Bed-Project-07-img-2.webp",
+            "/images/projects/Family-Bed-Project-07-img-3.webp"
+        ],
+        "videoUrl": "",
+        "testimonial": {
+            "text": "They created exactly what we envisioned. The bedroom is now our favorite space in the house!",
+            "author": "Mr. Anwar Hossen"
+        }
+    },
+    {
+        "id": "8",
+        "slug": "mr-md-ratul-apartment",
+        "image": "/images/projects/Apprtment-Project-08.webp",
+        "alt": "Apartment interior design",
+        "tags": [
+            "Residential",
+            "500 sft"
+        ],
+        "title": "Mr. MD. RATUL",
+        "location": "Rajmoti Market, Govindoganj",
+        "category": "residential",
+        "clientName": "Mr. MD. RATUL",
+        "description": "A compact yet stylish apartment interior that maximizes every square foot. This 500 sqft space features clever storage solutions, multi-functional furniture, and a contemporary design aesthetic. The result is a comfortable, modern home that feels spacious and inviting.",
+        "completionDate": "September 2024",
+        "duration": "2 months",
+        "images": [
+            "/images/projects/Apprtment-Project-08.webp",
+            "/images/projects/Apprtment-Project-08-img-2.webp",
+            "/images/projects/Apprtment-Project-08-img-3.webp",
+            "/images/projects/Apprtment-Project-08-img-4.webp"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "testimonial": {
+            "text": "Amazing transformation! They made our small apartment feel so much bigger and more functional.",
+            "author": "Mr. MD. RATUL"
+        }
+    }
+]

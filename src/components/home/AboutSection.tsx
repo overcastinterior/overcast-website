@@ -1,6 +1,5 @@
 // AboutSection.tsx
 
-import Image from "next/image";
 import CommonTitle from "../small/CommonTitle";
 import aboutIcon1 from "@/../public/images/icons/about-1.svg";
 import aboutIcon2 from "@/../public/images/icons/about-2.svg";
@@ -47,10 +46,10 @@ export default function AboutSection() {
 
                   {/* Architectural Icon */}
                   <div className="w-fit transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
-                    <Image 
-                      src={icons[index]} 
-                      alt={item.name} 
-                      className="max-w-8 lg:max-w-11 xl:max-w-[50px] transition-all duration-300 group-hover:brightness-110" 
+                    <img
+                      src={icons[index].src}
+                      alt={item.name}
+                      className="max-w-8 lg:max-w-11 xl:max-w-[50px] transition-all duration-300 group-hover:brightness-110"
                     />
                   </div>
                 </div>

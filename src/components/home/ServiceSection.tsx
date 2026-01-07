@@ -2,7 +2,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import CommonTitle from "../small/CommonTitle";
 import arrowTop from "@/../public/images/icons/arrow-top.svg";
 import Link from "next/link";
@@ -34,13 +33,10 @@ export default function ServiceSection() {
                     className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${activeService.id === service.id ? 'opacity-100 z-10' : 'opacity-0 z-0'
                       }`}
                   >
-                    <Image
+                    <img
                       src={service.image}
                       alt={service.title}
-                      width={800}
-                      height={600}
                       className="w-full h-full object-cover rounded-2xl xl:rounded-[25px]"
-                      priority={service.id === '01'}
                     />
                     {/* Smooth fade overlay for image transitions */}
                     <div
@@ -107,8 +103,8 @@ export default function ServiceSection() {
                           : 'bg-gray-200 group-hover:bg-primary group-hover:scale-110'
                         }`}
                     >
-                      <Image
-                        src={arrowTop}
+                      <img
+                        src={arrowTop.src}
                         alt="icon"
                         className={`w-2 lg:w-3 transition-all duration-300 ${activeService.id === service.id ? 'brightness-0 invert' : 'group-hover:brightness-0 group-hover:invert'
                           }`}

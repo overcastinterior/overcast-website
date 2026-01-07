@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import logo from "@/../public/images/logo.svg";
 import Button from "./small/Button";
@@ -23,8 +22,8 @@ const Header = () => {
           <div className="flex-shrink-0">
             <div className="flex items-center">
               <Link href="/" className="block">
-                <Image
-                  src={logo}
+                <img
+                  src={logo.src}
                   alt="Logo"
                   className="w-32 lg:w-40 xl:w-48 object-fill"
                 />

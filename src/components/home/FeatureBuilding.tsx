@@ -1,4 +1,3 @@
-import Image from "next/image";
 import longHouse from "@/../public/images/long-house.webp";
 
 const FeatureBuilding = () => {
@@ -11,11 +10,10 @@ const FeatureBuilding = () => {
           <div className="w-full text-center relative">
             {/* Enhanced house image with better positioning */}
             <div className="relative z-20 transform hover:scale-105 transition-transform duration-700 ease-out">
-              <Image
-                src={longHouse}
+              <img
+                src={longHouse.src}
                 alt="Overcast Interior Design - Modern Architecture"
                 className="w-full mx-auto lg:max-w-[70%] drop-shadow-2xl"
-                priority
               />
             </div>
 

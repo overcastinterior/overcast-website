@@ -1,7 +1,6 @@
 import Badge from "@/components/small/Badge";
 import Link from "next/link";
 import stepsData from "../../../lib/data/home/steps.json";
-import Image from "next/image";
 import openHouse from "@/../public/images/open-house.webp";
 
 const StepsSection = () => {
@@ -20,8 +19,8 @@ const StepsSection = () => {
           <h2 className="font-cal font-normal text-[90px] lg:text-[220px] xl:text-[300px] text-[#F0F0F0] leading-[110%]">
             overcast
           </h2>
-          <Image
-            src={openHouse}
+          <img
+            src={openHouse.src}
             alt="openHouse"
             className="w-full -mt-12 lg:absolute lg:right-0 lg:z-10 lg:-top-20 lg:max-w-[50%]"
           />

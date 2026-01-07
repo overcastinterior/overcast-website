@@ -3,7 +3,6 @@ import Badge from "@/components/small/Badge";
 import Link from "next/link";
 import CTASection from "@/components/shared/CTASection";
 import Footer from "@/components/shared/Footer";
-import Image from "next/image";
 import teamMembers from "../../../../lib/data/home/team.json";
 
 export const dynamic = "auto";
@@ -96,11 +95,10 @@ export default function TeamPage() {
                             >
                                 {/* Member Image */}
                                 <div className="relative h-[360px] lg:h-[400px] overflow-hidden">
-                                    <Image
+                                    <img
                                         src={member.image}
                                         alt={`${member.name} - ${member.designation}`}
-                                        fill
-                                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                     />
                                     {/* Gradient Overlay */}
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500"></div>

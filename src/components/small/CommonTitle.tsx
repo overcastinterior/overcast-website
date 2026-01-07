@@ -1,6 +1,5 @@
-// nextjs import 
+// nextjs import
 
-import Image from "next/image";
 import Badge from "./Badge";
 import commonCurve from "@/../public/images/common-title-curve.svg";
 
@@ -16,7 +15,7 @@ const CommonTitle = ({feat,title, sTitle, description} : CommonTitleProps) => {
     <div className="w-full lg:relative lg:mt-16 xl:mt-20">
       {/* curve image */}
       <div className="hidden xl:block absolute -top-24 left-[5%] z-20">
-        <Image src={commonCurve} alt="curve" className="max-w-[400px]" />
+        <img src={commonCurve.src} alt="curve" className="max-w-[400px]" />
       </div>
          <div className="flex flex-col gap-y-2 xl:flex-row">
             <div className="left xl:min-w-[30%] xl:text-center">

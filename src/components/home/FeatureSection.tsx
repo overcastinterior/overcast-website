@@ -1,6 +1,5 @@
 // src/components/home/FeatureSection.tsx
 
-import Image from "next/image";
 import checkIcon from "@/../public/images/icons/check-box.svg";
 import feat01 from "@/../public/images/feat-01.webp";
 import feat02 from "@/../public/images/feat-02.webp";
@@ -27,12 +26,10 @@ export default function FeatureSection() {
               <div className="img flex items-center justify-center xl:col-span-7 xl:order-2 group">
                 <div className="w-full max-w-2xl">
                   <div className="transform transition-all duration-700 hover:scale-105 hover:-translate-y-4 hover:rotate-2 hover:shadow-2xl hover:shadow-black/20">
-                    <Image
-                      src={feat02}
+                    <img
+                      src={feat02.src}
                       alt="feat-02"
                       className="rounded-xl xl:rounded-[25px] w-full transition-all duration-500 hover:brightness-110 hover:contrast-110"
-                      loading="lazy"
-                      sizes="(max-width: 1280px) 100vw, 700px"
                     />
                   </div>
                 </div>
@@ -48,8 +45,8 @@ export default function FeatureSection() {
 
                 <ul className="mt-8 lg:mt-12 xl:mt-[60px] flex flex-col gap-y-4 font-golos xl:gap-y-5">
                   <li className="flex items-center gap-x-2.5 group transform transition-all duration-300 hover:translate-x-2 hover:scale-105">
-                    <Image
-                      src={checkIcon}
+                    <img
+                      src={checkIcon.src}
                       alt="icon"
                       className="shrink-0 w-5 xl:w-[24px] transform transition-all duration-300 group-hover:scale-125 group-hover:rotate-12 group-hover:brightness-125"
                     />
@@ -59,8 +56,8 @@ export default function FeatureSection() {
                     </p>
                   </li>
                   <li className="flex items-center gap-x-2.5 group transform transition-all duration-300 delay-75 hover:translate-x-2 hover:scale-105">
-                    <Image
-                      src={checkIcon}
+                    <img
+                      src={checkIcon.src}
                       alt="icon"
                       className="shrink-0 w-5 xl:w-[24px] transform transition-all duration-300 group-hover:scale-125 group-hover:rotate-12 group-hover:brightness-125"
                     />
@@ -69,8 +66,8 @@ export default function FeatureSection() {
                     </p>
                   </li>
                   <li className="flex items-center gap-x-2.5 group transform transition-all duration-300 delay-150 hover:translate-x-2 hover:scale-105">
-                    <Image
-                      src={checkIcon}
+                    <img
+                      src={checkIcon.src}
                       alt="icon"
                       className="shrink-0 w-5 xl:w-[24px] transform transition-all duration-300 group-hover:scale-125 group-hover:rotate-12 group-hover:brightness-125"
                     />
@@ -79,8 +76,8 @@ export default function FeatureSection() {
                     </p>
                   </li>
                   <li className="flex items-center gap-x-2.5 group transform transition-all duration-300 delay-225 hover:translate-x-2 hover:scale-105">
-                    <Image
-                      src={checkIcon}
+                    <img
+                      src={checkIcon.src}
                       alt="icon"
                       className="shrink-0 w-5 xl:w-[24px] transform transition-all duration-300 group-hover:scale-125 group-hover:rotate-12 group-hover:brightness-125"
                     />

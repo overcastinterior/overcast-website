@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import arrowTop from "@/../public/images/icons/arrow-top.svg";
 
@@ -16,7 +15,7 @@ const ButtonTransparent = ({ text, link }: ButtonProps) => {
       >
         {text}
         <span className="w-7 h-7 lg:w-[30px] lg:h-[30px] rounded-full bg-primary items-center justify-center flex ml-2 lg:ml-2.5 p-1">
-          <Image src={arrowTop} alt="icon" />
+          <img src={arrowTop.src} alt="icon" />
         </span>
       </Link>
     </>

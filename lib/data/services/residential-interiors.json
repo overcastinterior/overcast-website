@@ -1,0 +1,73 @@
+{
+    "slug": "residential-interiors",
+    "name": "Residential Interiors",
+    "hero": {
+        "badge": "Residential Design",
+        "title": "Transform Your Home Into a",
+        "titleAccent": "Dream Space",
+        "description": "From concept to completion, we create personalized living spaces that reflect your style and enhance your daily life.",
+        "backgroundImage": "/images/hero-bg.webp"
+    },
+    "intro": {
+        "badge": "Our Approach",
+        "title": "Creating Homes That Tell",
+        "titleAccent": "Your Story",
+        "description": "Every home is unique, and so is every homeowner. We believe in creating residential interiors that are not just beautiful, but also functional and deeply personal. Our design philosophy centers around understanding your lifestyle, preferences, and aspirations to craft spaces that truly feel like home."
+    },
+    "process": {
+        "badge": "Our Process",
+        "title": "How We Bring Your Vision to",
+        "titleAccent": "Life",
+        "description": "Our systematic approach ensures a smooth journey from initial consultation to final handover.",
+        "steps": [
+            {
+                "id": "01",
+                "title": "Initial Consultation",
+                "description": "We begin by understanding your lifestyle, preferences, budget, and vision for your home through detailed discussions and site visits.",
+                "icon": "consultation"
+            },
+            {
+                "id": "02",
+                "title": "Design Development",
+                "description": "Our designers create personalized layouts, 3D visualizations, and mood boards that bring your vision to life before execution.",
+                "icon": "design"
+            },
+            {
+                "id": "03",
+                "title": "Material Selection",
+                "description": "We help you choose the perfect materials, finishes, furniture, and decor items that match your style and budget.",
+                "icon": "materials"
+            },
+            {
+                "id": "04",
+                "title": "Execution & Installation",
+                "description": "Our skilled craftsmen and project managers ensure flawless execution with attention to every detail and timely completion.",
+                "icon": "execution"
+            },
+            {
+                "id": "05",
+                "title": "Final Handover",
+                "description": "We conduct a thorough walkthrough, ensure everything meets your expectations, and hand over your dream home ready to move in.",
+                "icon": "delivery"
+            }
+        ]
+    },
+    "offerings": [
+        {
+            "title": "Full Home Design",
+            "description": "Complete interior design solutions for your entire home, from living rooms to bedrooms."
+        },
+        {
+            "title": "Kitchen & Dining",
+            "description": "Functional and beautiful kitchen designs with modern amenities and elegant dining spaces."
+        },
+        {
+            "title": "Bedroom Suites",
+            "description": "Comfortable and stylish bedroom designs with custom wardrobes and storage solutions."
+        },
+        {
+            "title": "Living & Family Rooms",
+            "description": "Inviting spaces for relaxation and entertainment with thoughtful furniture arrangements."
+        }
+    ]
+}

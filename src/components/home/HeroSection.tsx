@@ -1,7 +1,6 @@
 // src/components/home/HeroSection.tsx
 "use client";
 
-import Image from "next/image";
 import heroCircle from "@/../public/images/hero-circle.webp";
 import arrowDown from "@/../public/images/icons/arrow-down.svg";
 import Badge from "@/components/small/Badge";
@@ -76,12 +75,10 @@ export default function HeroSection() {
               </span>
             </div>
             <div className="shrink-0 w-40 h-40 lg:w-[200px] lg:h-[200px] xl:w-[250px] xl:h-[250px] -ml-10 border border-b-primary rounded-full animate-slide-in-right-rotate">
-              <Image
-                src={heroCircle}
+              <img
+                src={heroCircle.src}
                 alt="circle"
                 className="object-fill rounded-full w-full h-full"
-                priority={true}
-                sizes="(max-width: 1024px) 200px, 250px"
               />
             </div>
           </div>
@@ -93,8 +90,8 @@ export default function HeroSection() {
             className="group transform transition-all duration-200 hover:scale-110 hover:translate-y-1 active:scale-90"
           >
             <div className="animate-bounce">
-              <Image
-                src={arrowDown}
+              <img
+                src={arrowDown.src}
                 alt="Scroll to next section"
                 className="max-w-5 cursor-pointer group-hover:opacity-80 transition-opacity duration-200"
               />

@@ -1,0 +1,88 @@
+[
+    {
+        "id": "9",
+        "slug": "residential-rooftop-garden",
+        "image": "/images/projects/Drawing-Dining-Project-01.webp",
+        "alt": "Rooftop garden design",
+        "tags": [
+            "Rooftop Garden",
+            "800 sft"
+        ],
+        "title": "Residential Rooftop Garden",
+        "location": "JamilNagar, Bogura",
+        "category": "landscape",
+        "clientName": "Private Residence",
+        "description": "A lush rooftop garden that transforms unused space into a green oasis. This 800 sqft project features a mix of ornamental plants, herbs, and seating areas. The design includes proper waterproofing, drainage systems, and sustainable irrigation. The result is a peaceful retreat that provides fresh air, natural beauty, and a connection to nature.",
+        "completionDate": "November 2024",
+        "duration": "2 months",
+        "images": [
+            "/images/projects/Drawing-Dining-Project-01.webp",
+            "/images/projects/landscape-rooftop-img-2.webp",
+            "/images/projects/landscape-rooftop-img-3.webp",
+            "/images/projects/landscape-rooftop-img-4.webp"
+        ],
+        "videoUrl": "",
+        "testimonial": {
+            "text": "Our rooftop has been transformed into a beautiful garden. It's now our favorite place to relax!",
+            "author": "Homeowner"
+        }
+    },
+    {
+        "id": "10",
+        "slug": "private-garden-design",
+        "image": "/images/projects/Drawing-Dining-Project-02.webp",
+        "alt": "Backyard landscape design",
+        "tags": [
+            "Backyard",
+            "1200 sft"
+        ],
+        "title": "Private Garden Design",
+        "location": "Gazi Tower, Bogura",
+        "category": "landscape",
+        "clientName": "Private Residence",
+        "description": "A stunning backyard transformation featuring seasonal flowers, mature trees, and a meandering pathway. This 1200 sqft garden design creates distinct zones for dining, relaxation, and play. Native plants ensure low maintenance while providing year-round color and texture. The design includes ambient lighting for evening enjoyment.",
+        "completionDate": "October 2024",
+        "duration": "2.5 months",
+        "images": [
+            "/images/projects/Drawing-Dining-Project-02.webp",
+            "/images/projects/landscape-backyard-img-2.webp",
+            "/images/projects/landscape-backyard-img-3.webp",
+            "/images/projects/landscape-backyard-img-4.webp",
+            "/images/projects/landscape-backyard-img-5.webp"
+        ],
+        "videoUrl": "",
+        "testimonial": {
+            "text": "The garden exceeded our expectations. It's beautiful, easy to maintain, and perfect for our family.",
+            "author": "Homeowner"
+        }
+    },
+    {
+        "id": "11",
+        "slug": "office-outdoor-space",
+        "image": "/images/projects/Open-Space-Project-05.webp",
+        "alt": "Commercial landscape design",
+        "tags": [
+            "Commercial",
+            "3000 sft"
+        ],
+        "title": "Office Outdoor Space",
+        "location": "Central Eidgah, Bogura",
+        "category": "landscape",
+        "clientName": "Corporate Office",
+        "description": "A professional outdoor space designed for employee wellness and client impressions. This 3000 sqft commercial landscape features manicured lawns, shade trees, seating areas, and a modern water feature. The design creates a welcoming entrance while providing employees with a peaceful outdoor break area. Low-maintenance plantings ensure the space looks great year-round.",
+        "completionDate": "December 2024",
+        "duration": "3 months",
+        "images": [
+            "/images/projects/Open-Space-Project-05.webp",
+            "/images/projects/landscape-commercial-img-2.webp",
+            "/images/projects/landscape-commercial-img-3.webp",
+            "/images/projects/landscape-commercial-img-4.webp",
+            "/images/projects/landscape-commercial-img-5.webp"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "testimonial": {
+            "text": "The outdoor space has become a valuable asset for our office. Employees love taking breaks here!",
+            "author": "Office Manager"
+        }
+    }
+]

@@ -206,9 +206,9 @@ export default function PrivacyPage() {
                                 <div className="mt-4 p-6 bg-gray-50 rounded-xl">
                                     <p className="text-secondary font-golos text-sm lg:text-base">
                                         <strong>Overcast Interior</strong><br />
-                                        Email: websiteovercastinterior@gmail.com<br />
-                                        Phone: +88 01315 999944<br />
-                                        Address: House no #02 Road no #05, Jan-E-Saba Housing Complex - Jamil Nagar, Bogura - 5870, Bangladesh
+                                        Email: overcast.int.official@gmail.com<br />
+                                        Phone: 01786-518005<br />
+                                        Address: Road No: 05, House No: 02 (5th Floor), Jan-E-Saba Housing Complex, Jamil Nagar, Puran Bogra - 5800, Bangladesh
                                     </p>
                                 </div>
                             </div>

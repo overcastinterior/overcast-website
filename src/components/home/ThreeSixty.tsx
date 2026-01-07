@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import threeSixty from "@/../public/images/360-degree.webp";
 import CommonTitle from "@/components/small/CommonTitle";
@@ -127,11 +126,10 @@ const ThreeSixty = () => {
                   willChange: 'transform'
                 }}
               >
-                <Image
-                  src={threeSixty}
+                <img
+                  src={threeSixty.src}
                   alt="360 degree interactive view - Drag to explore"
                   className="w-full h-full object-cover"
-                  priority
                   draggable={false}
                 />
               </div>

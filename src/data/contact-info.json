@@ -1,0 +1,33 @@
+{
+    "company": {
+        "name": "Overcast Interior",
+        "tagline": "Elevating Brands with Smart Marketing & Premier Services"
+    },
+    "address": {
+        "full": "Road No: 05, House No: 02 (5th Floor), Jan-E-Saba Housing Complex, Jamil Nagar, Puran Bogra, Bangladesh, 5800",
+        "street": "House No: 02, Road No: 05 (5th Floor)",
+        "area": "Jan-E-Saba Housing Complex, Jamil Nagar",
+        "city": "Puran Bogra",
+        "country": "Bangladesh",
+        "postalCode": "5800"
+    },
+    "contact": {
+        "phone": "01786-518005",
+        "phoneFormatted": "+880 1786-518005",
+        "whatsapp": "01786-518005",
+        "email": "overcast.int.official@gmail.com"
+    },
+    "social": {
+        "instagram": "https://www.instagram.com/overcast_interior/",
+        "twitter": "https://x.com/overcast_int",
+        "youtube": "https://www.youtube.com/@OvercastInterior",
+        "linkedin": "#",
+        "facebook": "https://www.facebook.com/overcastinterior"
+    },
+    "workingHours": {
+        "weekdays": "Monday - Thursday: 9:00 AM - 6:00 PM",
+        "friday": "Friday: Closed",
+        "saturday": "Saturday: 10:00 AM - 4:00 PM",
+        "sunday": "Sunday: Closed"
+    }
+}

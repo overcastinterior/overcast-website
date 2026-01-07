@@ -4,7 +4,6 @@ import { useState } from "react";
 import ButtonTransparent from "@/components/small/ButtonTransparent";
 import playIcon from "@/../public/images/icons/play-icon.svg";
 import videoImg from "@/../public/images/video-thumb.webp";
-import Image from "next/image";
 
 const VideoSection = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -46,8 +45,8 @@ const VideoSection = () => {
           <div className="w-full mt-8 md:mt-12 lg:mt-20 relative group">
             {/* Video Thumbnail - Always shown initially */}
             <div className={`relative transition-all duration-500 ${isVideoPlaying ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
-              <Image
-                src={videoImg}
+              <img
+                src={videoImg.src}
                 alt="Video Thumbnail - Click to play"
                 className="rounded-xl xl:rounded-[25px] w-full transition-transform duration-300 group-hover:scale-105"
               />
@@ -61,8 +60,8 @@ const VideoSection = () => {
                 onClick={handleVideoPlay}
               >
                 <div className="w-20 h-20 lg:w-[120px] lg:h-[120px] rounded-full bg-white/20 flex justify-center items-center outline outline-white m-1 p-1 transition-all duration-300 group-hover:bg-white/30 group-hover:scale-110 group-hover:outline-primary">
-                  <Image
-                    src={playIcon}
+                  <img
+                    src={playIcon.src}
                     alt="Play video"
                     className="transition-transform duration-200 group-hover:scale-110"
                   />

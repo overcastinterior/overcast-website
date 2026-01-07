@@ -3,7 +3,6 @@
 import arrowTop from "@/../public/images/icons/arrow-top.svg";
 import Link from "next/link";
 import CommonTitle from "@/components/small/CommonTitle";
-import Image from "next/image";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -57,14 +56,10 @@ const RecentProject = () => {
           {projects.map((project) => (
             <SwiperSlide key={project.id} className={`${project.offsetClass}`}>
               <div className="card relative rounded-md lg:rounded-[20px] max-w-[371px]">
-                <Image
+                <img
                   src={project.image}
                   alt={project.alt}
-                  width="371"
-                  height="493"
-                  sizes="(max-width: 556px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   className="w-full max-w-[371px] rounded-md lg:rounded-[20px] h-[493px] object-cover"
-                  loading="lazy"
                 />
                 <div className="absolute top-0 left-0 z-20 w-full h-full p-3 md:p-4 lg:p-5 rounded-md lg:rounded-[20px] flex flex-col justify-between bg-recent-work max-w-[371px]">
                   <ul className="flex items-center gap-x-2">
@@ -96,7 +91,7 @@ const RecentProject = () => {
           >
             Explore More
             <span className="w-7 h-7 lg:w-[30px] lg:h-[30px] rounded-full border border-primary items-center justify-center flex ml-2 lg:ml-2.5 p-1">
-              <Image src={arrowTop} alt="icon" />
+              <img src={arrowTop.src} alt="icon" />
             </span>
           </Link>
         </div>

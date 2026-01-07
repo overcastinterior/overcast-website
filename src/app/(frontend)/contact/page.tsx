@@ -188,9 +188,9 @@ export default function ContactPage() {
                                         <div>
                                             <h3 className="font-cal text-xl text-black mb-2">Office Address</h3>
                                             <p className="text-secondary font-golos text-sm lg:text-base leading-relaxed">
-                                                House no #02 Road no #05<br />
-                                                Jan-E-Saba Housing Complex - Jamil Nagar<br />
-                                                Bogura - 5870, Bangladesh
+                                                Road No: 05, House No: 02 (5th Floor)<br />
+                                                Jan-E-Saba Housing Complex, Jamil Nagar<br />
+                                                Puran Bogra - 5800, Bangladesh
                                             </p>
                                         </div>
                                     </div>
@@ -217,7 +217,7 @@ export default function ContactPage() {
                                         <div>
                                             <h3 className="font-cal text-xl text-black mb-2">Phone Number</h3>
                                             <p className="text-secondary font-golos text-sm lg:text-base leading-relaxed">
-                                                +88 01315 999944
+                                                01786-518005
                                             </p>
                                         </div>
                                     </div>
@@ -244,7 +244,7 @@ export default function ContactPage() {
                                         <div>
                                             <h3 className="font-cal text-xl text-black mb-2">Email Address</h3>
                                             <p className="text-secondary font-golos text-sm lg:text-base leading-relaxed">
-                                                websiteovercastinterior@gmail.com
+                                                overcast.int.official@gmail.com
                                             </p>
                                         </div>
                                     </div>
@@ -271,9 +271,8 @@ export default function ContactPage() {
                                         <div>
                                             <h3 className="font-cal text-xl text-black mb-2">Working Hours</h3>
                                             <p className="text-secondary font-golos text-sm lg:text-base leading-relaxed">
-                                                Monday - Friday: 9:00 AM - 6:00 PM<br />
-                                                Saturday: 10:00 AM - 4:00 PM<br />
-                                                Sunday: Closed
+                                                Saturday - Thursday: 9:00 AM - 6:00 PM<br />
+                                                Friday: Closed
                                             </p>
                                         </div>
                                     </div>

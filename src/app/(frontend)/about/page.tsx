@@ -5,7 +5,6 @@ import CTASection from "@/components/shared/CTASection";
 import Footer from "@/components/shared/Footer";
 import aboutImg from "@/../public/images/feat-01.webp";
 import openHouse from "@/../public/images/open-house.webp";
-import Image from "next/image";
 
 export const dynamic = "auto";
 
@@ -71,7 +70,7 @@ export default function AboutPage() {
                         {/* Left - Image */}
                         <div className="relative">
                             <div className="relative rounded-2xl overflow-hidden">
-                                <Image src={aboutImg} alt="aboutImg" />
+                                <img src={aboutImg.src} alt="aboutImg" />
                             </div>
                             {/* Decorative element */}
                             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-2xl -z-10"></div>
@@ -393,7 +392,7 @@ export default function AboutPage() {
                         {/* Right - Image */}
                         <div className="relative order-first lg:order-last">
                             <div className="relative rounded-2xl overflow-hidden">
-                                <Image src={openHouse} alt="openHouse" />
+                                <img src={openHouse.src} alt="openHouse" />
                             </div>
                             {/* Decorative element */}
                             <div className="absolute -top-6 -left-6 w-32 h-32 bg-secondary/10 rounded-2xl -z-10"></div>

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from "react";
-import Image, { StaticImageData } from "next/image";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
@@ -16,7 +15,7 @@ import gallery08 from "@/../public/images/projects/Open-Space-Project-05.webp";
 
 interface GalleryImage {
   id: number;
-  src: StaticImageData;
+  src: any;
   alt: string;
 }
 
@@ -106,12 +105,10 @@ const GallerySection = () => {
                   className="relative group cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-xl transition-all duration-300"
                   onClick={() => openPopup(image)}
                 >
-                  <Image
-                    src={image.src}
+                  <img
+                    src={image.src.src}
                     alt={image.alt}
                     className="w-full h-64 md:h-72 lg:h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-                    loading="lazy"
-                    sizes="(max-width: 640px) 85vw, (max-width: 1024px) 40vw, 25vw"
                   />
 
                   {/* Hover overlay */}
@@ -153,8 +150,8 @@ const GallerySection = () => {
               className="relative animate-scale-in max-w-full max-h-full"
               onClick={(e) => e.stopPropagation()}
             >
-              <Image
-                src={selectedImage.src}
+              <img
+                src={selectedImage.src.src}
                 alt={selectedImage.alt}
                 className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
                 style={{ width: 'auto', height: 'auto' }}

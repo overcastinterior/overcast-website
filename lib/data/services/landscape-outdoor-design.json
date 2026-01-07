@@ -1,0 +1,73 @@
+{
+    "slug": "landscape-outdoor-design",
+    "name": "Landscape & Outdoor Design",
+    "hero": {
+        "badge": "Outdoor Living",
+        "title": "Create Your Perfect",
+        "titleAccent": "Outdoor Oasis",
+        "description": "Transform your outdoor spaces into beautiful, functional extensions of your home with our expert landscape and outdoor design services.",
+        "backgroundImage": "/images/hero-bg.webp"
+    },
+    "intro": {
+        "badge": "Natural Beauty",
+        "title": "Designing Outdoor Spaces That",
+        "titleAccent": "Connect You to Nature",
+        "description": "Your outdoor space has unlimited potential. Whether it's a rooftop garden, backyard landscape, or commercial green space, we create outdoor environments that are sustainable, beautiful, and perfectly suited to your climate and lifestyle."
+    },
+    "process": {
+        "badge": "Our Process",
+        "title": "Bringing Nature to",
+        "titleAccent": "Your Doorstep",
+        "description": "Our comprehensive approach ensures your outdoor space thrives for years to come.",
+        "steps": [
+            {
+                "id": "01",
+                "title": "Site Analysis",
+                "description": "We assess your outdoor space, analyzing sunlight, soil conditions, drainage, and existing features to inform our design.",
+                "icon": "consultation"
+            },
+            {
+                "id": "02",
+                "title": "Concept Design",
+                "description": "Creating detailed landscape plans with plant selections, hardscape elements, water features, and outdoor living areas.",
+                "icon": "design"
+            },
+            {
+                "id": "03",
+                "title": "Plant & Material Selection",
+                "description": "Choosing climate-appropriate plants, sustainable materials, and quality outdoor furniture that suit your aesthetic and budget.",
+                "icon": "materials"
+            },
+            {
+                "id": "04",
+                "title": "Installation & Construction",
+                "description": "Expert installation of plants, irrigation systems, lighting, pathways, and outdoor structures with precision and care.",
+                "icon": "execution"
+            },
+            {
+                "id": "05",
+                "title": "Maintenance Guidance",
+                "description": "Comprehensive care instructions and optional maintenance services to keep your landscape looking beautiful year-round.",
+                "icon": "delivery"
+            }
+        ]
+    },
+    "offerings": [
+        {
+            "title": "Garden Design",
+            "description": "Beautiful garden layouts with seasonal flowers, shrubs, and trees for year-round appeal."
+        },
+        {
+            "title": "Rooftop Gardens",
+            "description": "Transform unused rooftop spaces into lush green retreats with proper waterproofing and drainage."
+        },
+        {
+            "title": "Outdoor Living Areas",
+            "description": "Patios, decks, pergolas, and outdoor kitchens for entertainment and relaxation."
+        },
+        {
+            "title": "Water Features",
+            "description": "Fountains, ponds, and water walls that add tranquility and visual interest to your landscape."
+        }
+    ]
+}

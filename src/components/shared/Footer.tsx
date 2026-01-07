@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import logoWhite from "@/../public/images/logo-white.svg";
 import xSocial from "@/../public/images/icons/X-social.svg";
@@ -24,8 +23,8 @@ export default function Footer() {
                         {/* Brand Section */}
                         <div className="w-fulll col-span-2 lg:col-span-4">
                             <Link href="/">
-                                <Image
-                                    src={logoWhite}
+                                <img
+                                    src={logoWhite.src}
                                     alt="Logo white"
                                     className="max-w-[200px] md:max-w-[280px] lg:max-w-[350px] xl:max-w-[400px]"
                                 />
@@ -39,36 +38,36 @@ export default function Footer() {
                             <ul className="flex items-center space-x-4 mt-4 md:gap-x-6 lg:gap-x-7">
                                 <li>
                                     <Link href="https://www.facebook.com/overcastinterior" target="_blank">
-                                        <Image
-                                            src={facebook}
+                                        <img
+                                            src={facebook.src}
                                             alt="facebook"
                                             className="w-5 md:w-7 lg:w-9"
                                         />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <Image
-                                            src={xSocial}
+                                    <Link href="https://x.com/overcast_int" target="_blank">
+                                        <img
+                                            src={xSocial.src}
                                             alt="xSocial"
                                             className="w-5 md:w-7 lg:w-9"
                                         />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <Image
-                                            src={instagram}
+                                    <Link href="https://www.instagram.com/overcast_interior/#" target="_blank">
+                                        <img
+                                            src={instagram.src}
                                             alt="instagram"
                                             className="w-5 md:w-7 lg:w-9"
                                         />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <Image
-                                            src={linkedin}
-                                            alt="linkedin"
+                                    <Link href="https://www.youtube.com/@OvercastInterior" target="_blank">
+                                        <img
+                                            src={linkedin.src}
+                                            alt="youtube"
                                             className="w-5 md:w-7 lg:w-9"
                                         />
                                     </Link>
@@ -182,7 +181,7 @@ export default function Footer() {
                             <ul className="mt-3 md:mt-4 lg:mt-6 flex flex-col gap-y-5 md:gap-y-6 lg:gap-y-8 font-inter">
                                 <li>
                                     <Link
-                                        href="mailto:websiteovercastinterior@gmail.com"
+                                        href="mailto:overcast.int.official@gmail.com"
                                         className="font-normal text-white text-sm lg:text-base flex items-center gap-x-2"
                                     >
                                         <svg
@@ -199,12 +198,12 @@ export default function Footer() {
                                                 fill="white"
                                             />
                                         </svg>
-                                        websiteovercastinterior@gmail.com
+                                        overcast.int.official@gmail.com
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        href="#"
+                                        href="tel:+8801786518005"
                                         className="font-normal text-white text-sm lg:text-base flex items-center gap-x-2"
                                     >
                                         <svg
@@ -221,7 +220,7 @@ export default function Footer() {
                                                 fill="white"
                                             />
                                         </svg>
-                                        +88 01315 999944
+                                        01786-518005
                                     </Link>
                                 </li>
                                 <li>
@@ -244,12 +243,12 @@ export default function Footer() {
                                                 fill="white"
                                             />
                                         </svg>
-                                        House no #02 Road no #05
+                                        Road No: 05, House No: 02 (5th Floor)
                                     </Link>
                                 </li>
                                 <li>
                                     <p className="font-normal text-white text-sm">
-                                        Jan-E-Saba Housing Complex - Jamil Nagar, Bogura - 5870, Bangladesh
+                                        Jan-E-Saba Housing Complex, Jamil Nagar, Puran Bogra - 5800, Bangladesh
                                     </p>
                                 </li>
                             </ul>

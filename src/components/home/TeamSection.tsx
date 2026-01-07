@@ -3,7 +3,6 @@
 import { useState } from "react";
 import arrowLeft from "@/../public/images/icons/arrow-left.svg";
 import CommonTitle from "@/components/small/CommonTitle";
-import Image from "next/image";
 import Link from "next/link";
 import teamMembers from "../../../lib/data/home/team.json";
 
@@ -43,24 +42,17 @@ const TeamSection = () => {
                       : "opacity-0 scale-105 translate-x-4"
                       }`}
                   >
-                    <Image
+                    <img
                       src={member.image}
                       alt={`${member.name} - ${member.designation}`}
-                      width="396"
-                      height="452"
                       className="w-full rounded-2xl xl:rounded-[25px] object-cover h-[452px]"
-                      priority={index === 0}
-                      loading={index === 0 ? "eager" : "lazy"}
-                      sizes="(max-width: 1024px) 100vw, 60vw"
                     />
                   </div>
                 ))}
                 {/* Base image for sizing */}
-                <Image
+                <img
                   src={teamMembers[0].image}
                   alt="Manageing Directory"
-                  width="396"
-                  height="452"
                   className="w-full rounded-2xl xl:rounded-[25px] opacity-0 h-[452px]"
                 />
 
@@ -93,8 +85,8 @@ const TeamSection = () => {
                               : "hidden scale-75"
                             }`}
                         >
-                          <Image
-                            src={arrowLeft}
+                          <img
+                            src={arrowLeft.src}
                             alt="icon"
                             className="w-2 lg:w-3 transition-transform duration-200 group-hover:rotate-0"
                           />

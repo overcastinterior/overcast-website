@@ -5,69 +5,20 @@ import Badge from "@/components/small/Badge";
 import Link from "next/link";
 import CTASection from "@/components/shared/CTASection";
 import Footer from "@/components/shared/Footer";
-import Image from "next/image";
 import { useState } from "react";
 
 export const dynamic = "auto";
 
-// Portfolio data with all available project images
+// Import all project data
+import residentialProjects from "@/../lib/data/services/residential-projects.json";
+import commercialProjects from "@/../lib/data/services/commercial-projects.json";
+import landscapeProjects from "@/../lib/data/services/landscape-projects.json";
+
+// Combine all projects
 const portfolioProjects = [
-    {
-        id: 1,
-        title: "Modern Drawing & Dining Space",
-        category: "Residential",
-        image: "/images/projects/Drawing-Dining-Project-01.webp",
-        description: "Elegant contemporary design blending comfort with sophistication",
-    },
-    {
-        id: 2,
-        title: "Luxury Dining Experience",
-        category: "Residential",
-        image: "/images/projects/Drawing-Dining-Project-02.webp",
-        description: "Refined dining area with premium finishes and ambient lighting",
-    },
-    {
-        id: 3,
-        title: "State-of-the-Art Gym",
-        category: "Commercial",
-        image: "/images/projects/Gym-Project-03.webp",
-        description: "Professional fitness center with modern equipment and design",
-    },
-    {
-        id: 4,
-        title: "Executive Office Suite",
-        category: "Commercial",
-        image: "/images/projects/Office-Project-04.webp",
-        description: "Sophisticated workspace designed for productivity and style",
-    },
-    {
-        id: 5,
-        title: "Open Concept Living",
-        category: "Residential",
-        image: "/images/projects/Open-Space-Project-05.webp",
-        description: "Spacious open-plan design maximizing natural light and flow",
-    },
-    {
-        id: 6,
-        title: "Contemporary Office Design",
-        category: "Commercial",
-        image: "/images/projects/Office-Project-06.webp",
-        description: "Modern office space with collaborative work environments",
-    },
-    {
-        id: 7,
-        title: "Family Bedroom Retreat",
-        category: "Residential",
-        image: "/images/projects/Family-Bed-Project-07.webp",
-        description: "Cozy and elegant bedroom sanctuary for the whole family",
-    },
-    {
-        id: 8,
-        title: "Luxury Apartment Living",
-        category: "Residential",
-        image: "/images/projects/Apprtment-Project-08.webp",
-        description: "High-end apartment interior with premium materials and finishes",
-    },
+    ...residentialProjects,
+    ...commercialProjects,
+    ...landscapeProjects,
 ];
 
 export default function PortfolioPage() {
@@ -76,7 +27,7 @@ export default function PortfolioPage() {
     // Filter projects based on active category
     const filteredProjects = activeFilter === "All"
         ? portfolioProjects
-        : portfolioProjects.filter(project => project.category === activeFilter);
+        : portfolioProjects.filter(project => project.category.toLowerCase() === activeFilter.toLowerCase());
 
     return (
         <>
@@ -164,8 +115,8 @@ export default function PortfolioPage() {
                         <button
                             onClick={() => setActiveFilter("All")}
                             className={`px-5 py-2.5 lg:px-6 lg:py-3 rounded-full font-golos text-sm lg:text-base font-medium transition-all duration-300 hover:shadow-lg ${activeFilter === "All"
-                                    ? "bg-primary text-white shadow-lg"
-                                    : "bg-white text-secondary hover:bg-primary hover:text-white"
+                                ? "bg-primary text-white shadow-lg"
+                                : "bg-white text-secondary hover:bg-primary hover:text-white"
                                 }`}
                         >
                             All Projects
@@ -173,8 +124,8 @@ export default function PortfolioPage() {
                         <button
                             onClick={() => setActiveFilter("Residential")}
                             className={`px-5 py-2.5 lg:px-6 lg:py-3 rounded-full font-golos text-sm lg:text-base font-medium transition-all duration-300 hover:shadow-lg ${activeFilter === "Residential"
-                                    ? "bg-primary text-white shadow-lg"
-                                    : "bg-white text-secondary hover:bg-primary hover:text-white"
+                                ? "bg-primary text-white shadow-lg"
+                                : "bg-white text-secondary hover:bg-primary hover:text-white"
                                 }`}
                         >
                             Residential
@@ -182,8 +133,8 @@ export default function PortfolioPage() {
                         <button
                             onClick={() => setActiveFilter("Commercial")}
                             className={`px-5 py-2.5 lg:px-6 lg:py-3 rounded-full font-golos text-sm lg:text-base font-medium transition-all duration-300 hover:shadow-lg ${activeFilter === "Commercial"
-                                    ? "bg-primary text-white shadow-lg"
-                                    : "bg-white text-secondary hover:bg-primary hover:text-white"
+                                ? "bg-primary text-white shadow-lg"
+                                : "bg-white text-secondary hover:bg-primary hover:text-white"
                                 }`}
                         >
                             Commercial
@@ -193,24 +144,24 @@ export default function PortfolioPage() {
                     {/* Portfolio Grid - More Compact */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
                         {filteredProjects.map((project) => (
-                            <div
+                            <Link
                                 key={project.id}
-                                className="group relative bg-white rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer"
+                                href={`/portfolio/${project.slug}`}
+                                className="group relative bg-white rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer block"
                             >
                                 {/* Project Image - More Compact */}
                                 <div className="relative h-[240px] lg:h-[260px] xl:h-[280px] overflow-hidden">
-                                    <Image
+                                    <img
                                         src={project.image}
                                         alt={project.title}
-                                        fill
-                                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                     />
                                     {/* Overlay on Hover */}
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                                         <div className="absolute bottom-0 left-0 right-0 p-5 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                                             <div className="flex items-center gap-2 mb-2">
                                                 <span className="px-2.5 py-1 rounded-full bg-primary/90 text-white text-xs font-golos font-medium">
-                                                    {project.category}
+                                                    {project.category.charAt(0).toUpperCase() + project.category.slice(1)}
                                                 </span>
                                             </div>
                                             <h3 className="font-cal text-lg lg:text-xl text-white mb-2">
@@ -224,7 +175,7 @@ export default function PortfolioPage() {
                                     {/* Category Badge (Always Visible) */}
                                     <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-white/95 backdrop-blur-sm">
                                         <span className="text-secondary text-xs font-golos font-medium">
-                                            {project.category}
+                                            {project.category.charAt(0).toUpperCase() + project.category.slice(1)}
                                         </span>
                                     </div>
                                 </div>
@@ -255,7 +206,7 @@ export default function PortfolioPage() {
                                         </svg>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
                         ))}
                     </div>
 
